@@ -1,0 +1,378 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_Gxg9wp": {
+      "type": "breadcrumbs",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "1770216414314b570a": {
+      "type": "_blocks",
+      "custom_css": [],
+      "settings": {}
+    },
+    "rich_text_kMGWCF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Vg9gEL": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_Jhyjf6": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.description }}",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_n7TbJf": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vg9gEL",
+        "text_Jhyjf6",
+        "button_n7TbJf"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "tight",
+        "content_alignment": "left",
+        "padding_top": 30,
+        "padding_bottom": 32,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "brand_links_row_wH86At": {
+      "type": "brand-links-row",
+      "blocks": {
+        "brand_84KDzf": {
+          "type": "brand",
+          "settings": {
+            "label": "Alla märken",
+            "link": "/collections/wedgar",
+            "show_on_handles": "wedgar"
+          }
+        },
+        "brand_HpBgXM": {
+          "type": "brand",
+          "settings": {
+            "label": "Titleist",
+            "link": "/collections/wedgar/titleist",
+            "show_on_handles": "wedgar"
+          }
+        },
+        "brand_8LyrW9": {
+          "type": "brand",
+          "settings": {
+            "label": "Cobra",
+            "link": "/collections/wedgar/cobra",
+            "show_on_handles": "wedgar"
+          }
+        },
+        "brand_yCfFgW": {
+          "type": "brand",
+          "settings": {
+            "label": "Callaway",
+            "link": "/collections/wedgar/callaway",
+            "show_on_handles": "wedgar"
+          }
+        },
+        "brand_YWT6g6": {
+          "type": "brand",
+          "settings": {
+            "label": "Taylormade",
+            "link": "/collections/wedgar/taylormade",
+            "show_on_handles": "wedgar"
+          }
+        },
+        "brand_TTNrzP": {
+          "type": "brand",
+          "settings": {
+            "label": "Ping",
+            "link": "/collections/wedgar/ping",
+            "show_on_handles": "wedgar"
+          }
+        },
+        "brand_A7MCL4": {
+          "type": "brand",
+          "settings": {
+            "label": "Mizuno",
+            "link": "/collections/wedgar/mizuno",
+            "show_on_handles": "wedgar"
+          }
+        },
+        "brand_bLFpRi": {
+          "type": "brand",
+          "settings": {
+            "label": "Cleveland",
+            "link": "/collections/wedgar/cleveland",
+            "show_on_handles": "wedgar"
+          }
+        }
+      },
+      "block_order": [
+        "brand_84KDzf",
+        "brand_HpBgXM",
+        "brand_8LyrW9",
+        "brand_yCfFgW",
+        "brand_YWT6g6",
+        "brand_TTNrzP",
+        "brand_A7MCL4",
+        "brand_bLFpRi"
+      ],
+      "name": "Brand links row",
+      "settings": {
+        "heading": "",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "collection_info_zUNyKV": {
+          "type": "collection_info",
+          "disabled": true,
+          "settings": {
+            "heading_size": "h1",
+            "heading_tag": "h1",
+            "show_description": true,
+            "padding_top": 40,
+            "padding_bottom": 40
+          }
+        }
+      },
+      "block_order": [
+        "collection_info_zUNyKV"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "text_alignment": "left",
+        "show_collection_image": false,
+        "image": "shopify://shop_images/deals.png",
+        "image_overlay_opacity": 0,
+        "image_position": "right",
+        "image_height": "extra-small",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "image_height_mobile": "auto",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "product-grid": {
+      "type": "depict-patched-main-collection-product-grid",
+      "blocks": {
+        "image_card_6KMfre": {
+          "type": "image_card",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image_position": 1,
+            "image": "shopify://shop_images/c1deb2c1-a750-4976-b418-210d80175128.png",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "content_position": "bottom-center",
+            "content_alignment": "center",
+            "content_spacing": "medium",
+            "content_gap": "fitted",
+            "card_link": "",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Image card",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "<p>Combine images with text and a stand-out offer</p>",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "order_first": false,
+            "enable_preload_image": false
+          }
+        },
+        "image_card_WFwBPk": {
+          "type": "image_card",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image_position": 1,
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "content_position": "bottom-center",
+            "content_alignment": "center",
+            "content_spacing": "medium",
+            "content_gap": "fitted",
+            "card_link": "",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Image card",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "<p>Combine images with text and a stand-out offer</p>",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "order_first": false,
+            "enable_preload_image": false
+          }
+        },
+        "image_card_mwkyJy": {
+          "type": "image_card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image_position": 5,
+            "image": "shopify://shop_images/golf.png",
+            "image_ratio": "3/4",
+            "image_overlay_opacity": 10,
+            "content_position": "split-bottom-button",
+            "content_alignment": "center",
+            "content_spacing": "small",
+            "content_gap": "fitted",
+            "card_link": "https://boka.easycashier.se/innesvingengolf/customfitting/chooseResource",
+            "subheading": "Boka din customfitting nu !",
+            "subheading_style": "",
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Boka nu!",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "order_first": false,
+            "enable_preload_image": true
+          }
+        }
+      },
+      "block_order": [
+        "image_card_6KMfre",
+        "image_card_WFwBPk",
+        "image_card_mwkyJy"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "products_per_page": 28,
+        "columns_desktop": 4,
+        "column_gap": "large",
+        "row_gap": "large",
+        "pagination": "load_more",
+        "enable_filtering": true,
+        "enable_color_swatch": true,
+        "filter_type": "vertical",
+        "expand_filter_groups": "Availability, Price, Color, Size, Category",
+        "enable_sorting": true,
+        "enable_layout_switching": true,
+        "columns_mobile": "2",
+        "padding_top": 28,
+        "padding_bottom": 60,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_dgPtDV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kVf6qj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Om Innesvingen",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3"
+          }
+        },
+        "text_xtLQE8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Innesvingen Golf startade sin resa med en golfshop på Delsjö Golfklubb. Under åren utvecklade vi Sveriges första simulatorcenter i Mölndal, där vi ursprungligen startade med fyra simulatorer. Innesvingen Mölndal har sedan expanderat till en butik på 1200 m2 med hela åtta simulatorer och dessutom en custom fitting-studio. Butiken erbjuder en komplett golf upplevelse året runt – oavsett väder!<br/>År 2018 utökade vi verksamheten genom att öppna vår andra butik i Kungälv. Med en yta på 600 m2 och fyra golfsimulatorer samt en egen custom fitting–studioerbjuder även denna butik en helhetslösning för alla golfentusiaster.<br/><br/><br/></p>",
+            "text_size": "text-base",
+            "text_line_limit": "5-lines",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kVf6qj",
+        "text_xtLQE8"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-10",
+        "use_color_scheme_in_container": true,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_Gxg9wp",
+    "1770216414314b570a",
+    "rich_text_kMGWCF",
+    "brand_links_row_wH86At",
+    "banner",
+    "product-grid",
+    "rich_text_dgPtDV"
+  ]
+}

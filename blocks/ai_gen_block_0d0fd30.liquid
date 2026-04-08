@@ -1,0 +1,962 @@
+{% doc %}
+  @prompt
+    a grid with 3 different boxes 1 with 50% width and the other 2 stacjd on top. with bith video and image background posibillity to several button links, overlay on bakground image and video , make it possible to select uploaded video background, make the video fit in the boxes , overlay syns inte på boxarna, make it possible to adjust the split of 50-50 or 60-40 ocr 70-30 in the with of the boxes and overlay opacity don't show, overlay opcity on the different boxes dont work
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-split-grid-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+  }
+
+  .ai-split-grid__container-{{ ai_gen_id }} {
+    display: grid;
+    {% if block.settings.grid_split == '50-50' %}
+      grid-template-columns: 1fr 1fr;
+    {% elsif block.settings.grid_split == '60-40' %}
+      grid-template-columns: 1.5fr 1fr;
+    {% elsif block.settings.grid_split == '70-30' %}
+      grid-template-columns: 2.33fr 1fr;
+    {% elsif block.settings.grid_split == '40-60' %}
+      grid-template-columns: 1fr 1.5fr;
+    {% elsif block.settings.grid_split == '30-70' %}
+      grid-template-columns: 1fr 2.33fr;
+    {% endif %}
+    gap: {{ block.settings.gap }}px;
+    width: 100%;
+  }
+
+  .ai-split-grid__logo-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 4;
+    width: 350px;
+    height: auto;
+  }
+
+  .ai-split-grid__box-{{ ai_gen_id }} {
+    position: relative;
+    overflow: hidden;
+    border-radius: {{ block.settings.border_radius }}px;
+    min-height: {{ block.settings.box_height }}px;
+    display: flex;
+    flex-direction: column;
+    justify-content: {{ block.settings.content_vertical_alignment }};
+    align-items: {{ block.settings.content_horizontal_alignment }};
+    padding: {{ block.settings.content_padding }}px;
+  }
+
+  .ai-split-grid__box--large-{{ ai_gen_id }} {
+    grid-row: span 2;
+  }
+
+  .ai-split-grid__background-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .ai-split-grid__background-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .ai-split-grid__background-video-{{ ai_gen_id }} {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .ai-split-grid__background-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-split-grid__background-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    opacity: 0.3;
+  }
+
+  .ai-split-grid__overlay-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+    display: block !important;
+  }
+
+  .ai-split-grid__content-{{ ai_gen_id }} {
+    position: relative;
+    z-index: 3;
+    text-align: {{ block.settings.text_alignment }};
+    width: 100%;
+    max-width: {{ block.settings.content_max_width }}px;
+  }
+
+  .ai-split-grid__heading-{{ ai_gen_id }} {
+    color: {{ block.settings.heading_color }};
+    font-size: {{ block.settings.heading_size }}px;
+    margin: 0 0 {{ block.settings.heading_spacing }}px 0;
+    font-weight: 700;
+  }
+
+  .ai-split-grid__text-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    margin: 0 0 {{ block.settings.text_spacing }}px 0;
+    line-height: 1.5;
+  }
+
+  .ai-split-grid__buttons-{{ ai_gen_id }} {
+    display: flex;
+    gap: {{ block.settings.button_gap }}px;
+    flex-wrap: wrap;
+  }
+
+  {% if block.settings.text_alignment == 'center' %}
+    .ai-split-grid__buttons-{{ ai_gen_id }} {
+      justify-content: center;
+    }
+  {% elsif block.settings.text_alignment == 'right' %}
+    .ai-split-grid__buttons-{{ ai_gen_id }} {
+      justify-content: flex-end;
+    }
+  {% else %}
+    .ai-split-grid__buttons-{{ ai_gen_id }} {
+      justify-content: flex-start;
+    }
+  {% endif %}
+
+  .ai-split-grid__button-{{ ai_gen_id }} {
+    display: inline-block;
+    padding: {{ block.settings.button_padding_vertical }}px {{ block.settings.button_padding_horizontal }}px;
+    background-color: {{ block.settings.button_background }};
+    color: {{ block.settings.button_text_color }};
+    text-decoration: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid {{ block.settings.button_border_color }};
+  }
+
+  .ai-split-grid__button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_background }};
+    color: {{ block.settings.button_hover_text_color }};
+    border-color: {{ block.settings.button_hover_border_color }};
+  }
+
+  .ai-split-grid__button--secondary-{{ ai_gen_id }} {
+    background-color: {{ block.settings.button_secondary_background }};
+    color: {{ block.settings.button_secondary_text_color }};
+    border-color: {{ block.settings.button_secondary_border_color }};
+  }
+
+  .ai-split-grid__button--secondary-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_secondary_hover_background }};
+    color: {{ block.settings.button_secondary_hover_text_color }};
+    border-color: {{ block.settings.button_secondary_hover_border_color }};
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-split-grid__container-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: {{ block.settings.gap_mobile }}px;
+    }
+
+    .ai-split-grid__box--large-{{ ai_gen_id }} {
+      grid-row: span 1;
+    }
+
+    .ai-split-grid__box-{{ ai_gen_id }} {
+      min-height: {{ block.settings.box_height_mobile }}px;
+      padding: {{ block.settings.content_padding_mobile }}px;
+    }
+
+    .ai-split-grid__heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.heading_size | times: 0.8 }}px;
+    }
+
+    .ai-split-grid__text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.text_size | times: 0.9 }}px;
+    }
+
+    .ai-split-grid__buttons-{{ ai_gen_id }} {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .ai-split-grid__button-{{ ai_gen_id }} {
+      text-align: center;
+    }
+  }
+{% endstyle %}
+
+<split-grid-{{ ai_gen_id }} class="ai-split-grid-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-split-grid__container-{{ ai_gen_id }}">
+    <div class="ai-split-grid__box-{{ ai_gen_id }} ai-split-grid__box--large-{{ ai_gen_id }}">
+      <div class="ai-split-grid__background-{{ ai_gen_id }}">
+        {% if block.settings.box1_video != blank %}
+          <video
+            class="ai-split-grid__background-video-{{ ai_gen_id }}"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            {% for source in block.settings.box1_video.sources %}
+              <source src="{{ source.url }}" type="{{ source.mime_type }}">
+            {% endfor %}
+          </video>
+        {% elsif block.settings.box1_image != blank %}
+          <img
+            src="{{ block.settings.box1_image | image_url: width: 1200 }}"
+            alt="{{ block.settings.box1_image.alt | escape }}"
+            class="ai-split-grid__background-image-{{ ai_gen_id }}"
+            loading="lazy"
+            width="{{ block.settings.box1_image.width }}"
+            height="{{ block.settings.box1_image.height }}"
+          >
+        {% else %}
+          <div class="ai-split-grid__background-placeholder-{{ ai_gen_id }}">
+            {{ 'image' | placeholder_svg_tag }}
+          </div>
+        {% endif %}
+      </div>
+      {% assign box1_opacity = block.settings.box1_overlay_opacity | divided_by: 100.0 %}
+      <div class="ai-split-grid__overlay-{{ ai_gen_id }}" style="background-color: {{ block.settings.box1_overlay_color }}; opacity: {{ box1_opacity }};"></div>
+      <div class="ai-split-grid__content-{{ ai_gen_id }}">
+        {% if block.settings.box1_heading != blank %}
+          <h1 class="ai-split-grid__heading-{{ ai_gen_id }}">{{ block.settings.box1_heading }}</h1>
+        {% endif %}
+        {% if block.settings.box1_text != blank %}
+          <div class="ai-split-grid__text-{{ ai_gen_id }}">{{ block.settings.box1_text }}</div>
+        {% endif %}
+        <div class="ai-split-grid__buttons-{{ ai_gen_id }}">
+          {% if block.settings.box1_button1_text != blank and block.settings.box1_button1_link != blank %}
+            <a href="{{ block.settings.box1_button1_link }}" class="ai-split-grid__button-{{ ai_gen_id }}">
+              {{ block.settings.box1_button1_text }}
+            </a>
+          {% endif %}
+          {% if block.settings.box1_button2_text != blank and block.settings.box1_button2_link != blank %}
+            <a href="{{ block.settings.box1_button2_link }}" class="ai-split-grid__button-{{ ai_gen_id }} ai-split-grid__button--secondary-{{ ai_gen_id }}">
+              {{ block.settings.box1_button2_text }}
+            </a>
+          {% endif %}
+          {% if block.settings.box1_button3_text != blank and block.settings.box1_button3_link != blank %}
+            <a href="{{ block.settings.box1_button3_link }}" class="ai-split-grid__button-{{ ai_gen_id }}">
+              {{ block.settings.box1_button3_text }}
+            </a>
+          {% endif %}
+        </div>
+      </div>
+      <div class="ai-split-grid__logo-{{ ai_gen_id }}">
+        <svg xmlns:xlink="https://cdn.shopify.com/s/files/1/0312/5084/1645/files/Big_Grey.png?v=1772532121" viewBox="0 0 404.54 41.34"><defs><style>.cls-1{fill:#ec691a;}.cls-2{fill:#fff;}</style></defs><rect class="cls-2" x="229.07" y="7.73" width="5.4" height="25.86"></rect><path class="cls-2" d="m160.66,13.17l6.47,10.82h-12.94l6.47-10.82Zm-2.85-5.43l-15.53,25.86h6.19l2.89-4.87h18.59l2.89,4.87h6.19l-15.53-25.86h-5.7Z"></path><polygon class="cls-2" points="253.83 7.74 234.62 20.65 253.89 33.6 263.11 33.6 243.84 20.65 263.05 7.74 253.83 7.74"></polygon><polygon class="cls-2" points="307.67 7.73 293.99 27.12 280.33 7.73 273.32 7.73 273.32 33.6 278.73 33.6 278.73 14.59 292.06 33.6 295.93 33.6 309.26 14.59 309.26 33.6 314.67 33.6 314.67 7.73 307.67 7.73"></polygon><path class="cls-2" d="m343.07,13.17l6.47,10.82h-12.94l6.47-10.82Zm-2.85-5.43l-15.53,25.86h6.19l2.9-4.87h18.59l2.89,4.87h6.19l-15.53-25.86h-5.7Z"></path><polygon class="cls-2" points="399.13 7.74 399.13 27.5 378.3 7.74 371.55 7.74 371.55 33.6 376.96 33.6 376.96 13.83 397.81 33.6 404.54 33.6 404.54 7.74 399.13 7.74"></polygon><polygon class="cls-2" points="61.74 7.72 61.74 12.46 74.21 12.46 74.21 33.58 79.62 33.58 79.62 12.46 90.69 12.46 93.51 7.72 61.74 7.72"></polygon><path class="cls-2" d="m212.38,25.66c-.56,1.89-2.32,3.23-4.29,3.23h-11.65c-2.15,0-3.99-1.32-4.39-3.61-.54-3.14-.6-6.19-.03-9.11.45-2.29,2.27-3.78,4.42-3.78s11.65.01,11.65.01c2.01,0,3.75,1.31,4.29,3.19l4.59-3.09c-1.3-2.53-4.07-4.8-8.06-4.8h-13.47c-4.38,0-7.52,3.06-8.54,6.4-1.06,3.49-1.01,9.63-.03,12.94,1.06,3.55,4.07,6.51,8.57,6.51h13.46c4.02,0,6.77-2.28,8.07-4.82l-4.6-3.1Z"></path><path class="cls-2" d="m124.76,20.66h-15.73v-8.27h15.73c2.24,0,4.05,1.8,4.12,4.14-.07,2.36-1.88,4.14-4.12,4.14m8.98-4.14c0-5.08-3.69-8.78-8.22-8.78h-21.9v25.84h5.41v-8.32h13.58l4.96,8.34h6.18l-5.34-8.89c3.11-1.23,5.34-4.36,5.34-8.19"></path><path class="cls-1" d="m38.15,0c1.76,0,3.19,1.43,3.19,3.19v34.96c0,1.76-1.43,3.19-3.19,3.19h-21.7c-.31,0-.55-.27-.52-.58C17.88,24.13,26.74,6.52,32.61.06,32.65.02,32.7,0,32.76,0h5.39Z"></path><path class="cls-1" d="m3.19,0h26.4c.07,0,.1.08.05.12C18.7,9.28,10.11,27.98,6.52,40.83c-.09.3-.36.52-.68.52h-2.65c-1.76,0-3.19-1.43-3.19-3.19V3.19C0,1.43,1.43,0,3.19,0Z"></path></svg>
+      </div>
+    </div>
+
+    <div class="ai-split-grid__box-{{ ai_gen_id }}">
+      <div class="ai-split-grid__background-{{ ai_gen_id }}">
+        {% if block.settings.box2_video != blank %}
+          <video
+            class="ai-split-grid__background-video-{{ ai_gen_id }}"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            {% for source in block.settings.box2_video.sources %}
+              <source src="{{ source.url }}" type="{{ source.mime_type }}">
+            {% endfor %}
+          </video>
+        {% elsif block.settings.box2_image != blank %}
+          <img
+            src="{{ block.settings.box2_image | image_url: width: 800 }}"
+            alt="{{ block.settings.box2_image.alt | escape }}"
+            class="ai-split-grid__background-image-{{ ai_gen_id }}"
+            loading="lazy"
+            width="{{ block.settings.box2_image.width }}"
+            height="{{ block.settings.box2_image.height }}"
+          >
+        {% else %}
+          <div class="ai-split-grid__background-placeholder-{{ ai_gen_id }}">
+            {{ 'image' | placeholder_svg_tag }}
+          </div>
+        {% endif %}
+      </div>
+      {% assign box2_opacity = block.settings.box2_overlay_opacity | divided_by: 100.0 %}
+      <div class="ai-split-grid__overlay-{{ ai_gen_id }}" style="background-color: {{ block.settings.box2_overlay_color }}; opacity: {{ box2_opacity }};"></div>
+      <div class="ai-split-grid__content-{{ ai_gen_id }}">
+        {% if block.settings.box2_heading != blank %}
+          <h2 class="ai-split-grid__heading-{{ ai_gen_id }}">{{ block.settings.box2_heading }}</h2>
+        {% endif %}
+        {% if block.settings.box2_text != blank %}
+          <div class="ai-split-grid__text-{{ ai_gen_id }}">{{ block.settings.box2_text }}</div>
+        {% endif %}
+        <div class="ai-split-grid__buttons-{{ ai_gen_id }}">
+          {% if block.settings.box2_button1_text != blank and block.settings.box2_button1_link != blank %}
+            <a href="{{ block.settings.box2_button1_link }}" class="ai-split-grid__button-{{ ai_gen_id }}">
+              {{ block.settings.box2_button1_text }}
+            </a>
+          {% endif %}
+          {% if block.settings.box2_button2_text != blank and block.settings.box2_button2_link != blank %}
+            <a href="{{ block.settings.box2_button2_link }}" class="ai-split-grid__button-{{ ai_gen_id }} ai-split-grid__button--secondary-{{ ai_gen_id }}">
+              {{ block.settings.box2_button2_text }}
+            </a>
+          {% endif %}
+          {% if block.settings.box2_button3_text != blank and block.settings.box2_button3_link != blank %}
+            <a href="{{ block.settings.box2_button3_link }}" class="ai-split-grid__button-{{ ai_gen_id }}">
+              {{ block.settings.box2_button3_text }}
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <div class="ai-split-grid__box-{{ ai_gen_id }}">
+      <div class="ai-split-grid__background-{{ ai_gen_id }}">
+        {% if block.settings.box3_video != blank %}
+          <video
+            class="ai-split-grid__background-video-{{ ai_gen_id }}"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
+            {% for source in block.settings.box3_video.sources %}
+              <source src="{{ source.url }}" type="{{ source.mime_type }}">
+            {% endfor %}
+          </video>
+        {% elsif block.settings.box3_image != blank %}
+          <img
+            src="{{ block.settings.box3_image | image_url: width: 800 }}"
+            alt="{{ block.settings.box3_image.alt | escape }}"
+            class="ai-split-grid__background-image-{{ ai_gen_id }}"
+            loading="lazy"
+            width="{{ block.settings.box3_image.width }}"
+            height="{{ block.settings.box3_image.height }}"
+          >
+        {% else %}
+          <div class="ai-split-grid__background-placeholder-{{ ai_gen_id }}">
+            {{ 'image' | placeholder_svg_tag }}
+          </div>
+        {% endif %}
+      </div>
+      {% assign box3_opacity = block.settings.box3_overlay_opacity | divided_by: 100.0 %}
+      <div class="ai-split-grid__overlay-{{ ai_gen_id }}" style="background-color: {{ block.settings.box3_overlay_color }}; opacity: {{ box3_opacity }};"></div>
+      <div class="ai-split-grid__content-{{ ai_gen_id }}">
+        {% if block.settings.box3_heading != blank %}
+          <h2 class="ai-split-grid__heading-{{ ai_gen_id }}">{{ block.settings.box3_heading }}</h2>
+        {% endif %}
+        {% if block.settings.box3_text != blank %}
+          <div class="ai-split-grid__text-{{ ai_gen_id }}">{{ block.settings.box3_text }}</div>
+        {% endif %}
+        <div class="ai-split-grid__buttons-{{ ai_gen_id }}">
+          {% if block.settings.box3_button1_text != blank and block.settings.box3_button1_link != blank %}
+            <a href="{{ block.settings.box3_button1_link }}" class="ai-split-grid__button-{{ ai_gen_id }}">
+              {{ block.settings.box3_button1_text }}
+            </a>
+          {% endif %}
+          {% if block.settings.box3_button2_text != blank and block.settings.box3_button2_link != blank %}
+            <a href="{{ block.settings.box3_button2_link }}" class="ai-split-grid__button-{{ ai_gen_id }} ai-split-grid__button--secondary-{{ ai_gen_id }}">
+              {{ block.settings.box3_button2_text }}
+            </a>
+          {% endif %}
+          {% if block.settings.box3_button3_text != blank and block.settings.box3_button3_link != blank %}
+            <a href="{{ block.settings.box3_button3_link }}" class="ai-split-grid__button-{{ ai_gen_id }}">
+              {{ block.settings.box3_button3_text }}
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</split-grid-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class SplitGrid{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.videos = this.querySelectorAll('.ai-split-grid__background-video-{{ ai_gen_id }}');
+        this.setupVideos();
+      }
+
+      setupVideos() {
+        this.videos.forEach((video) => {
+          video.addEventListener('loadedmetadata', () => {
+            video.play().catch(() => {});
+          });
+        });
+      }
+    }
+
+    customElements.define('split-grid-{{ ai_gen_id }}', SplitGrid{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Split grid boxes",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "grid_split",
+      "label": "Grid split ratio",
+      "options": [
+        { "value": "50-50", "label": "50% - 50%" },
+        { "value": "60-40", "label": "60% - 40%" },
+        { "value": "70-30", "label": "70% - 30%" },
+        { "value": "40-60", "label": "40% - 60%" },
+        { "value": "30-70", "label": "30% - 70%" }
+      ],
+      "default": "50-50"
+    },
+    {
+      "type": "range",
+      "id": "box_height",
+      "label": "Box height (desktop)",
+      "min": 300,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "default": 500
+    },
+    {
+      "type": "range",
+      "id": "box_height_mobile",
+      "label": "Box height (mobile)",
+      "min": 200,
+      "max": 600,
+      "step": 50,
+      "unit": "px",
+      "default": 400
+    },
+    {
+      "type": "range",
+      "id": "gap",
+      "label": "Gap between boxes (desktop)",
+      "min": 0,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "gap_mobile",
+      "label": "Gap between boxes (mobile)",
+      "min": 0,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "range",
+      "id": "content_padding",
+      "label": "Content padding (desktop)",
+      "min": 20,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "content_padding_mobile",
+      "label": "Content padding (mobile)",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "content_max_width",
+      "label": "Content max width",
+      "min": 300,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "default": 600
+    },
+    {
+      "type": "select",
+      "id": "content_vertical_alignment",
+      "label": "Vertical alignment",
+      "options": [
+        { "value": "flex-start", "label": "Top" },
+        { "value": "center", "label": "Center" },
+        { "value": "flex-end", "label": "Bottom" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "content_horizontal_alignment",
+      "label": "Horizontal alignment",
+      "options": [
+        { "value": "flex-start", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "flex-end", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "heading_spacing",
+      "label": "Heading spacing",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Text size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "text_spacing",
+      "label": "Text spacing",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Buttons"
+    },
+    {
+      "type": "range",
+      "id": "button_gap",
+      "label": "Gap between buttons",
+      "min": 5,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "button_padding_vertical",
+      "label": "Vertical padding",
+      "min": 8,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "button_padding_horizontal",
+      "label": "Horizontal padding",
+      "min": 15,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "default": 4
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Primary background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Primary text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_border_color",
+      "label": "Primary border",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_background",
+      "label": "Primary hover background",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Primary hover text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_border_color",
+      "label": "Primary hover border",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_background",
+      "label": "Secondary background",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_text_color",
+      "label": "Secondary text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_border_color",
+      "label": "Secondary border",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_hover_background",
+      "label": "Secondary hover background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_hover_text_color",
+      "label": "Secondary hover text",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_secondary_hover_border_color",
+      "label": "Secondary hover border",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Box 1 (Large)"
+    },
+    {
+      "type": "image_picker",
+      "id": "box1_image",
+      "label": "Background image"
+    },
+    {
+      "type": "video",
+      "id": "box1_video",
+      "label": "Background video"
+    },
+    {
+      "type": "color",
+      "id": "box1_overlay_color",
+      "label": "Overlay color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "box1_overlay_opacity",
+      "label": "Overlay opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 30
+    },
+    {
+      "type": "text",
+      "id": "box1_heading",
+      "label": "Heading",
+      "default": "Large Box"
+    },
+    {
+      "type": "textarea",
+      "id": "box1_text",
+      "label": "Text",
+      "default": "This is the large box that takes 50% width"
+    },
+    {
+      "type": "text",
+      "id": "box1_button1_text",
+      "label": "Button 1 text",
+      "default": "Shop now"
+    },
+    {
+      "type": "url",
+      "id": "box1_button1_link",
+      "label": "Button 1 link"
+    },
+    {
+      "type": "text",
+      "id": "box1_button2_text",
+      "label": "Button 2 text",
+      "default": "Learn more"
+    },
+    {
+      "type": "url",
+      "id": "box1_button2_link",
+      "label": "Button 2 link"
+    },
+    {
+      "type": "text",
+      "id": "box1_button3_text",
+      "label": "Button 3 text"
+    },
+    {
+      "type": "url",
+      "id": "box1_button3_link",
+      "label": "Button 3 link"
+    },
+    {
+      "type": "header",
+      "content": "Box 2 (Top right)"
+    },
+    {
+      "type": "image_picker",
+      "id": "box2_image",
+      "label": "Background image"
+    },
+    {
+      "type": "video",
+      "id": "box2_video",
+      "label": "Background video"
+    },
+    {
+      "type": "color",
+      "id": "box2_overlay_color",
+      "label": "Overlay color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "box2_overlay_opacity",
+      "label": "Overlay opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 30
+    },
+    {
+      "type": "text",
+      "id": "box2_heading",
+      "label": "Heading",
+      "default": "Top Box"
+    },
+    {
+      "type": "textarea",
+      "id": "box2_text",
+      "label": "Text",
+      "default": "This is the top right box"
+    },
+    {
+      "type": "text",
+      "id": "box2_button1_text",
+      "label": "Button 1 text",
+      "default": "Explore"
+    },
+    {
+      "type": "url",
+      "id": "box2_button1_link",
+      "label": "Button 1 link"
+    },
+    {
+      "type": "text",
+      "id": "box2_button2_text",
+      "label": "Button 2 text"
+    },
+    {
+      "type": "url",
+      "id": "box2_button2_link",
+      "label": "Button 2 link"
+    },
+    {
+      "type": "text",
+      "id": "box2_button3_text",
+      "label": "Button 3 text"
+    },
+    {
+      "type": "url",
+      "id": "box2_button3_link",
+      "label": "Button 3 link"
+    },
+    {
+      "type": "header",
+      "content": "Box 3 (Bottom right)"
+    },
+    {
+      "type": "image_picker",
+      "id": "box3_image",
+      "label": "Background image"
+    },
+    {
+      "type": "video",
+      "id": "box3_video",
+      "label": "Background video"
+    },
+    {
+      "type": "color",
+      "id": "box3_overlay_color",
+      "label": "Overlay color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "box3_overlay_opacity",
+      "label": "Overlay opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 30
+    },
+    {
+      "type": "text",
+      "id": "box3_heading",
+      "label": "Heading",
+      "default": "Bottom Box"
+    },
+    {
+      "type": "textarea",
+      "id": "box3_text",
+      "label": "Text",
+      "default": "This is the bottom right box"
+    },
+    {
+      "type": "text",
+      "id": "box3_button1_text",
+      "label": "Button 1 text",
+      "default": "Discover"
+    },
+    {
+      "type": "url",
+      "id": "box3_button1_link",
+      "label": "Button 1 link"
+    },
+    {
+      "type": "text",
+      "id": "box3_button2_text",
+      "label": "Button 2 text"
+    },
+    {
+      "type": "url",
+      "id": "box3_button2_link",
+      "label": "Button 2 link"
+    },
+    {
+      "type": "text",
+      "id": "box3_button3_text",
+      "label": "Button 3 text"
+    },
+    {
+      "type": "url",
+      "id": "box3_button3_link",
+      "label": "Button 3 link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Split grid boxes"
+    }
+  ]
+}
+{% endschema %}

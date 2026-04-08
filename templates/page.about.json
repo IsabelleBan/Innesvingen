@@ -1,0 +1,396 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_DgnWDV": {
+      "type": "breadcrumbs",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_overlay_3FrkpM": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_MEEHjQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_W8mPfG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Om oss",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MEEHjQ",
+        "heading_W8mPfG"
+      ],
+      "custom_css": [
+        ".rich-text {max-width: 52rem;}"
+      ],
+      "settings": {
+        "container": "full",
+        "image": "shopify://shop_images/Ominnesvingen_7284c2bf-1556-4551-a171-20d5f8654b78.jpg",
+        "desktop_height": "medium",
+        "overlay_opacity": 30,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "top-left",
+        "content_alignment": "left",
+        "mobile_height": "adapt",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "enable_preload_image": true
+      }
+    },
+    "rich_text_kyFd96": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Y9MMVQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vilka vi är",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_7h6LaE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vårt team består av engagerade och erfarna personer inom golfbranchen.</p><p>Med olika bakgrunder och kompetenser arbetar vi tillsammans för att leverera både tjänster och produkter av hög kvalitet.</p><p>Vi tror att det är människor bakom företaget som gör skillnaden, och vi är stolta över att ha ett dynamiskt och passionerat team som ständigt strävar efter att överträffa våra kunders förväntningar.</p>",
+            "text_size": "text-lg",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y9MMVQ",
+        "text_7h6LaE"
+      ],
+      "custom_css": [
+        ".rich-text {max-width: 78rem; margin: 0 auto;}",
+        "@media (max-width: 1023px) {.rich-text__heading {max-width: 50rem; margin: 0 auto; }}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-10",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_hbm374": {
+      "type": "rich-text",
+      "blocks": {
+        "text_eJN9Az": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_eJN9Az"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "multicolumn_NVWxEe": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_gnmDqV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Profil-Mike_b8afeee1-2a49-4862-b9c3-5fbe5007b3fb.jpg",
+            "title": "Mike Noreen",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "<p>Säljare – Custom Fitting – Verkstad – Webbplats<br/></p><p><em>Hemmaklubb: Hills Golf & Sports Club, Handicap: 3.8</em></p><p></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_Lkgb3Y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Fredrik-Halldorf-Profil-Innesvingen.jpg",
+            "title": "Fredrik Halldorf",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "<p>Säljare – Custom Fitting – Verkstad – Webbplats<br/></p><p><em>Hemma Klubb: Gullbringa GK/Lysegården GK, Handicap 2.2</em><br/><br/></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_BDXeji": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/August-Landberg-Profilbild-Innesvingen.jpg",
+            "title": "August Landberg",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "<p>Säljare – Custom Fitting – Verkstad<br/><br/><em>Hemmaklubb: Hills Golf & Sports Club, Handicap: 3.8</em><br/><br/></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_yqztdq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Profilbild-Joakim_e5f1faa5-8c2c-4579-8712-52c02e900fa7.jpg",
+            "title": "Joakim Axhorn",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "<p>Säljare – Custom Fitting – Verkstad<br/><br/><em>Hemmaklubb: Lysegården/Allingsås GK, Handicap: 1.4</em><br/><br/></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "column_gnmDqV",
+        "column_Lkgb3Y",
+        "column_BDXeji",
+        "column_yqztdq"
+      ],
+      "custom_css": [
+        ".rich-text--tight {--text-margin-top: 0.8rem;}",
+        ".multicolumn-card__image {aspect-ratio: 3 / 4; overflow: hidden;}",
+        ".multicolumn-card__image picture {position: absolute; inset: 0; width: 100%; height: 100%;}",
+        ".multicolumn-card__image img {width: 100%; height: 100%; object-fit: cover;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Möt Innesvingens team",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "content_alignment": "left",
+        "show_col_count": false,
+        "show_image": true,
+        "columns_desktop": 4,
+        "column_gap": "medium",
+        "row_gap": "large",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "multicolumn_dHrYyh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FJ3pkj": {
+          "type": "column",
+          "settings": {
+            "title": "What's in the bag?",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "<p><strong>Mikes svar:</strong></p><p><strong>Driver: </strong>Cobra Darkspeed X (9 degree, 8.0)</p><p>Skaft: Venus Blue TR Velecore 6 Stiff</p><p>Grepp: MCC Blackout</p><p><strong>3wood:</strong> Cobra Darkspeed X (15.5)</p><p>Skaft: Venus Black TR Velecore 7 Stiff</p><p>Grepp: MCC Blackout</p><p><strong>5wood: </strong>Cobra Aerojet (18)</p><p>Skaft: Tour AD BB 7 Stiff</p><p>Grepp: MCC Blackout</p><p><strong>Järn: </strong>Cobra King Tour (4-PW)</p><p>Skaft: Mitsubishi MMT 105 Stiff</p><p>Grepp: MCC Blackout</p><p><strong>Wedgar: </strong>Callaway MD5 Jaws RAW (50-10S) (54-10S) (58-10S)</p><p>Skaft: Dynamic Gold Tour Issue<br/>Black Onyx S400</p><p>Grepp:MCC Black</p><p><strong>Putter:</strong> Scotty Cameron Button Black Circle T<br/>(34.25\")</p><p>Grepp: Toulon Design – Lamkin Deep Etch Red</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_Ez4CNC": {
+          "type": "column",
+          "settings": {
+            "title": "What's in the bag?",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "<p><strong>Fredriks svar: </strong></p><p><strong>Driver:</strong> Callaway Elyte 3D(10,5)</p><p>Shaft: Aretera EC One Blue 65 (S)</p><p>Grepp: MCC+4 Align Midsize<br/></p><p><strong>3 wood:</strong> Callaway Ai ASmoke 3D</p><p>Skaft: Denali Black stiff</p><p>Grepp: MCC 4+ Align Midsize</p><p></p><p><strong>Utility:</strong> Cobra Järn 2 & 4 King TEC<br/><br/><strong>Järn: </strong>Cobra Tour CB (5-PW)</p><p>Skaft: KBS Tour 120 stiff</p><p>Grepp: MCC 4+ Align Midsize</p><p><strong>Wedgar:</strong> Cleveland RTZ (50,54,58)<br/></p><p>Skaft: KBS Tour 120 Stiff</p><p>Grepp: MCC 4+ Align Midsize</p><p></p><p><strong>Putter: </strong>Scotty Cameron Phantom X 11,5 (35,5\")<br/></p><p>Grepp: Super Stroke Pistol GT 1.0</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_8bNPmY": {
+          "type": "column",
+          "settings": {
+            "title": "What's in the bag?",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "<p><strong>Augusts svar: </strong></p><p><strong>Driver</strong>: Cobra LTDX (7.5)</p><p>Shaft: Diamana Kai'li Flower Band 70 TX (Tour X)</p><p><strong>3wood:</strong> Cobra LTDX (13)</p><p>Skaft: Tensi White AV 70 TX (Tour X)</p><p><strong>Utility: </strong>Titleist TMB 2<br/></p><p>Skaft: Modus 120 X-Flex</p><p></p><p><strong>Järn: </strong>Cobra MB RF (Rickie Fowler) (4-PW)</p><p>Skaft: Modus 120 X-Flex</p><p></p><p><strong>Wedgar: </strong>Cobra SB (SnakeBite) (52/Versatile, 58/Versatile)</p><p>Skaft: KBS Hi-Rev 2.0 (Stiff)</p><p></p><p><strong>Putter:</strong> Odyssey Double Wide (35\")<br/></p><p>Grepp: Odyssey Pistol</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_VxHKxN": {
+          "type": "column",
+          "settings": {
+            "title": "What's in the bag?",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "<p><strong>Joakims svar:</strong></p><p><strong>Driver</strong>: Titleist TSR2 10.0 (B1)</p><p>Shaft: Tour AD UB 6 TX (Tour X) 45\"</p><p><strong>4wood:</strong> Titleist TSR2 16.5 (B1)</p><p>Skaft: Tensi Blue AV 6X 42.5\"</p><p><strong>Järn: </strong>Titleist T100 3–5 Titleist 620MB 6–PW</p><p>Skaft: Modus 120 X–Flex</p><p><strong>Wedgar: </strong>Titleist Vokey SM10 52/12F 56/10S 60/12D</p><p>Skaft: Modus wedge 115 gram</p><p><strong>Putter:</strong> Scotty Cameron 5.5 Phantom 35\" / Odessey 12 White Hot Versa 35\"</p><p>Grepp: Odyssey Pistol</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "column_FJ3pkj",
+        "column_Ez4CNC",
+        "column_8bNPmY",
+        "column_VxHKxN"
+      ],
+      "custom_css": [
+        ".multicolumn-card:has(.placeholder-svg) .multicolumn-card__image {display: none;}"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "content_alignment": "left",
+        "show_col_count": false,
+        "show_image": true,
+        "columns_desktop": 4,
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_DgnWDV",
+    "main",
+    "image_with_text_overlay_3FrkpM",
+    "rich_text_kyFd96",
+    "rich_text_hbm374",
+    "multicolumn_NVWxEe",
+    "multicolumn_dHrYyh"
+  ]
+}

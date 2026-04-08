@@ -1,0 +1,693 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_overlay_M88xCC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_ct9LzK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_47DzDP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Butiker på golfklubbar",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ct9LzK",
+        "heading_47DzDP"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "full",
+        "image": "shopify://shop_images/golfbana-sand.webp",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 30,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "mobile_height": "auto",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "enable_preload_image": false
+      }
+    },
+    "rich_text_rCniMV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Thh4GY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Demo dagar",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_JU4PmD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>För tillfället har vi inga kommande datum.</p><p>Klicka på respektive dag för att komma till bokning, välj customfitting och klicka dig sedan fram till rätt dag för att boka.</p>",
+            "text_size": "text-lg",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_prbHnF": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Thh4GY",
+        "text_JU4PmD",
+        "button_prbHnF"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-10",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_Q9nyJh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qxG8wa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Albatross Golfklubb",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_BrRWfF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tre fantastiska banor i storslagen natur, en golfanläggning inbäddad i grönska, fina träningsmöjligheter, mat i toppklass från golfrestaurangen, en vidunderlig utsikt från de moderna konferensrummen och Göteborgs härligaste uteservering.</p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_e8Un6r": {
+          "type": "button",
+          "settings": {
+            "button_label": "Besök",
+            "button_link": "https://www.albatrossgolfklubb.se/",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qxG8wa",
+        "text_BrRWfF",
+        "button_e8Un6r"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_zLBpXF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_E4yfpj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Deljsö Golfklubb",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_pptLUh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En naturskön golfbana och mötesplats där spelglädje, gemenskap och service är i fokus. Delsjö Golfklubb finner du endast fem minuter från centrala Göteborg.Golfklubben grundades 1962 och är en vacker park- och skogsbana belägen intill Delsjöns naturreservat. Med dess omväxlande miljö passar det elitspelare som nybörjare. Har även en uppskattad juniorverksamhet.<br/><br/></p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_CkpTwp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Besök",
+            "button_link": "https://www.degk.se/",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_E4yfpj",
+        "text_pptLUh",
+        "button_CkpTwp"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_8yk6Jc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7dbA49": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lyckorna Golfklubb",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_QayG76": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lyckorna Golfklubb bildades som klubb nr 100 i Sverige år 1967. Banan, som ligger i Uddevalla kommun i hjärtat av Bohuslän, invigdes året därpå. Anders Amilon var banarkitekt och hade verkligt bra förutsättningar för att skapa en utomordentligt fin bana i den vackra bohuslänska naturen.</p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_HtrNFm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Besök",
+            "button_link": "https://lyckornagk.se/",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7dbA49",
+        "text_QayG76",
+        "button_HtrNFm"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_JEJicN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7aQT4P": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lidköpings Golfklubb",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_VADaBx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lidköpings närmaste golfbana är en lättpromenerad parkbana med bästa finish som samtidigt kan vara svår och utmanande!<br/><br/></p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_eDgQnL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Besök",
+            "button_link": "https://lidkopingsgk.se/",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7aQT4P",
+        "text_VADaBx",
+        "button_eDgQnL"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_TbaeMG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yTLwQJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lysegårdens Golfklubb",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_QLqTXk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lysegårdens egendom har funnits sedan urminnes tider. Redan 1388 omnämndes den i biskop Eysteins ”Röde Bog” och benämndes då Lysigardum. Bohuslän var under den tiden norskt och gården ägdes av Henrik Bille, son till Eske Bille i hans äktenskap med Sophia Krummedike, vilken fått gården i arv efter sin far Henrik Krummedike, hövitsman på Bohus slott. Gården har sedan dess haft många ägare och inköptes 1910 av Carl Alb. Engström och finns fortfarande i familjens ägo. Armas Engström, Son till Carl A. Engström, var en driftig och framsynt man, som i mitten av 60-talet konstaterade att jordbruk inte lönade sig så varför inte satsa på friskvård, anlägga en golfbana och ge fler möjlighet att få tillgång till den vackra naturen med sina granna lövskogshagar och sitt mäktiga vattenfall med en fallhöjd på 38 meter.<br/><br/></p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_aNKkP7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Besök",
+            "button_link": "https://lysegardensgk.se/",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yTLwQJ",
+        "text_QLqTXk",
+        "button_aNKkP7"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_4qjrAy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_T93MLr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Onsjö Golfklubb",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_6ziarT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Med anor från 1974. Det började med att några Vänersborgare (medlemmar av Vänersborgs Söners Gille och golfentusiaster) tyckte att staden behövde en golfbana för sin fortsatta utveckling. Under tidigt 1970-tal togs det fram förslag till bana vid Näverdraget. Dessutom undersöktes markområden norr om Vargön, Brätte, Grunnebo och vid Boteredssjön. Samtliga av dessa områden underkändes av olika skäl. Ekonomiska, för små arealer och för många ägare att förhålla sig till. Efter en tur till Onsjöområdet var slutsatsen att här skulle golfbanan ligga.<br/><br/></p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_Gp7iTX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Besök",
+            "button_link": "https://www.onsjogk.com/",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_T93MLr",
+        "text_6ziarT",
+        "button_Gp7iTX"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_AmHYhT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NQHPGe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Orust Golfklubb",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_4hWgCY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I maj 1981 samlades ett antal golfintresserade Orustbor på restaurang Trolltorp för ett informationsmöte om en framtida golfbana. SGF:s normalstadgar antogs och en interrimsstyrelse bildades. Som ordförande valdes Jan Wallgren och till sekreterare Bengt Hansson. Under hösten fastställdes stadgarna och SGF:s styrelse accepterade klubben som medlem. Formellt valdes klubben in som medlem 167 på Golfförbundets årsmöte 1982.</p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_n38zqU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Besök",
+            "button_link": "https://www.orustgk.se/",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NQHPGe",
+        "text_4hWgCY",
+        "button_n38zqU"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_h4dkDA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NGKM3z": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stora Lundby Golfklubb",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_XbcpkA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I augusti 1972 slog Sveriges största golfambassadör Sven Tumba invigningsslaget på Stora Lundby GK, som då hette Stannums GK. Den världsberömda arkitekten Frank Pennink har skapat en bana som mjukt följer det böljande landskapet i en gammal klassisk jordbruksbygd i Lerums kommun.<br/><br/></p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_9tyekw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Besök",
+            "button_link": "https://www.stannumgolf.se/",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NGKM3z",
+        "text_XbcpkA",
+        "button_9tyekw"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_8nMfqJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_crCpxH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Torslanda Golfklubb",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_qTbQhT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mitt i Torslanda i anslutning till Västerhavet ligger vår 18-hålsbana – 20 min från centrala Göteborg. Golfbanan ligger på Hisingens sydvästra sida alldeles vid havet och i omedelbar närhet till Torslanda centrum Amhult. Från vissa delar av banan ser man ända ut till Vinga fyr och båk. Klubben är en fullängds 18-hålsbana par 70 av linkskaraktär.<br/><br/></p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_jJwHVj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Besök",
+            "button_link": "https://torslandagk.se/",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_crCpxH",
+        "text_qTbQhT",
+        "button_jJwHVj"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_bF3WVj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9cACqG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tjörns Golfklubb",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_kKFhjU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tjörns GK bildades 1990 och de första 9 hålen var spelklara 1992. Sex år senare var även drömmen om en 18-hålsbana förverkligad. Klubben har sedan några år ett nytt klubbhus som inrymmer reception, kansli, konferensrum, omklädningsrum, shop och restaurang. Klubben präglas av gemytlig atmosfär, skapad av en bra mix av fritids- och åretruntboende medlemmar på Tjörn.<br/><br/></p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_DdHgw4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Besök",
+            "button_link": "https://www.tjornsgk.se/",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9cACqG",
+        "text_kKFhjU",
+        "button_DdHgw4"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_icon_cards_bCxeiN": {
+      "type": "custom-icon-cards",
+      "blocks": {
+        "card_7RWGdk": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-truck\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle></svg>",
+            "heading": "Leverans",
+            "description": "2 – 5 arbetsdagar"
+          }
+        },
+        "card_PXgR6i": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-refresh-cw\"><polyline points=\"23 4 23 10 17 10\"></polyline><polyline points=\"1 20 1 14 7 14\"></polyline><path d=\"M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15\"></path></svg>",
+            "heading": "Öppet köp",
+            "description": "14 dagar"
+          }
+        },
+        "card_HJpEYf": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-user\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"></path><circle cx=\"12\" cy=\"7\" r=\"4\"></circle></svg>",
+            "heading": "Kundklubb",
+            "description": "Exklusiva erbjudanden"
+          }
+        }
+      },
+      "block_order": [
+        "card_7RWGdk",
+        "card_PXgR6i",
+        "card_HJpEYf"
+      ],
+      "name": "Icon Cards",
+      "settings": {
+        "color_scheme": "scheme-1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_M88xCC",
+    "rich_text_rCniMV",
+    "rich_text_Q9nyJh",
+    "rich_text_zLBpXF",
+    "rich_text_8yk6Jc",
+    "rich_text_JEJicN",
+    "rich_text_TbaeMG",
+    "rich_text_4qjrAy",
+    "rich_text_AmHYhT",
+    "rich_text_h4dkDA",
+    "rich_text_8nMfqJ",
+    "rich_text_bF3WVj",
+    "custom_icon_cards_bCxeiN"
+  ]
+}

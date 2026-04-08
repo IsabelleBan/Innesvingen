@@ -1,0 +1,331 @@
+{% doc %}
+  @prompt
+    gör en Collection info med colleaction heading av the text woith a read more
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-collection-info-{{ ai_gen_id }} {
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    display: block;
+  }
+
+  .ai-collection-info-container-{{ ai_gen_id }} {
+    padding: {{ block.settings.padding_top }}px {{ block.settings.padding_horizontal }}px {{ block.settings.padding_bottom }}px;
+    background-color: {{ block.settings.background_color }};
+    border-radius: {{ block.settings.border_radius }}px;
+  }
+
+  .ai-collection-info-heading-{{ ai_gen_id }} {
+    color: {{ block.settings.heading_color }};
+    margin: 0 0 {{ block.settings.spacing }}px;
+    font-size: {{ block.settings.heading_size }}px;
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-collection-info-description-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    line-height: 1.6;
+    text-align: {{ block.settings.text_alignment }};
+    margin: 0;
+  }
+
+  .ai-collection-info-description-{{ ai_gen_id }}.is-collapsed {
+    display: -webkit-box;
+    -webkit-line-clamp: {{ block.settings.collapsed_lines }};
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .ai-collection-info-toggle-{{ ai_gen_id }} {
+    background: none;
+    border: none;
+    color: {{ block.settings.button_color }};
+    cursor: pointer;
+    font-size: {{ block.settings.text_size }}px;
+    font-weight: 600;
+    margin-top: {{ block.settings.spacing }}px;
+    padding: 0;
+    text-decoration: underline;
+    display: block;
+    text-align: {{ block.settings.text_alignment }};
+    width: 100%;
+  }
+
+  .ai-collection-info-toggle-{{ ai_gen_id }}:hover {
+    color: {{ block.settings.button_hover_color }};
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-collection-info-heading-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.heading_size }}px * 0.8);
+    }
+
+    .ai-collection-info-description-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.text_size }}px * 0.9);
+    }
+  }
+{% endstyle %}
+
+<collection-info-{{ ai_gen_id }}
+  class="ai-collection-info-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-collection-info-container-{{ ai_gen_id }}">
+    {% if collection.title != blank %}
+      <h1 class="ai-collection-info-heading-{{ ai_gen_id }}">
+        {{ collection.title }}
+      </h1>
+    {% endif %}
+
+    {% if collection.description != blank %}
+      <div
+        class="ai-collection-info-description-{{ ai_gen_id }} {% if block.settings.enable_read_more %}is-collapsed{% endif %}"
+        data-description
+      >
+        {{ collection.description }}
+      </div>
+
+      {% if block.settings.enable_read_more %}
+        <button
+          class="ai-collection-info-toggle-{{ ai_gen_id }}"
+          data-toggle
+          aria-expanded="false"
+        >
+          <span data-read-more-text>{{ block.settings.read_more_text }}</span>
+          <span data-read-less-text style="display: none;">{{ block.settings.read_less_text }}</span>
+        </button>
+      {% endif %}
+    {% endif %}
+  </div>
+</collection-info-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class CollectionInfo{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.toggle = this.querySelector('[data-toggle]');
+        this.description = this.querySelector('[data-description]');
+        this.readMoreText = this.querySelector('[data-read-more-text]');
+        this.readLessText = this.querySelector('[data-read-less-text]');
+      }
+
+      connectedCallback() {
+        if (this.toggle && this.description) {
+          this.toggle.addEventListener('click', this.handleToggle.bind(this));
+        }
+      }
+
+      handleToggle() {
+        const isCollapsed = this.description.classList.contains('is-collapsed');
+
+        if (isCollapsed) {
+          this.description.classList.remove('is-collapsed');
+          this.readMoreText.style.display = 'none';
+          this.readLessText.style.display = 'inline';
+          this.toggle.setAttribute('aria-expanded', 'true');
+        } else {
+          this.description.classList.add('is-collapsed');
+          this.readMoreText.style.display = 'inline';
+          this.readLessText.style.display = 'none';
+          this.toggle.setAttribute('aria-expanded', 'false');
+        }
+      }
+    }
+
+    customElements.define('collection-info-{{ ai_gen_id }}', CollectionInfo{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Collection info",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "range",
+      "id": "spacing",
+      "label": "Spacing between elements",
+      "min": 5,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Heading"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Description"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Text size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#666666"
+    },
+    {
+      "type": "header",
+      "content": "Read more"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_read_more",
+      "label": "Enable read more",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "collapsed_lines",
+      "label": "Lines to show when collapsed",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "text",
+      "id": "read_more_text",
+      "label": "Read more text",
+      "default": "Läs mer"
+    },
+    {
+      "type": "text",
+      "id": "read_less_text",
+      "label": "Read less text",
+      "default": "Läs mindre"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_color",
+      "label": "Button hover color",
+      "default": "#666666"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding top",
+      "min": 0,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "min": 0,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal",
+      "label": "Padding horizontal",
+      "min": 0,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection info"
+    }
+  ]
+}
+{% endschema %}

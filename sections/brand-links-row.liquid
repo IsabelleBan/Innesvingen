@@ -1,0 +1,183 @@
+{% assign current_handle = collection.handle | downcase | strip %}
+{% assign visible_count = 0 %}
+
+{% capture buttons_markup %}
+  {% for block in section.blocks %}
+    {% assign handles_raw = block.settings.show_on_handles | downcase | strip %}
+    {% assign handles_list = handles_raw | split: ',' %}
+    {% assign show_block = false %}
+
+    {% if handles_raw == blank %}
+      {% assign show_block = true %}
+    {% else %}
+      {% for handle in handles_list %}
+        {% assign clean_handle = handle | strip %}
+        {% if clean_handle == current_handle %}
+          {% assign show_block = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% if show_block and block.settings.label != blank %}
+      {% assign visible_count = visible_count | plus: 1 %}
+      <a
+        {% if block.settings.link != blank %}
+          href="{{ block.settings.link }}"
+        {% else %}
+          role="link"
+          aria-disabled="true"
+        {% endif %}
+        class="brand-links-row__button"
+        {{ block.shopify_attributes }}
+      >
+        {{ block.settings.label }}
+      </a>
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+
+{% if visible_count > 0 %}
+  <section class="brand-links-row" id="section-{{ section.id }}">
+    <div class="page-width">
+      {% if section.settings.heading != blank %}
+        <h2 class="brand-links-row__heading">{{ section.settings.heading }}</h2>
+      {% endif %}
+
+      <div class="brand-links-row__list">
+        {{ buttons_markup }}
+      </div>
+    </div>
+  </section>
+
+  <style>
+    #section-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    #section-{{ section.id }} .brand-links-row__heading {
+      margin: 0 0 16px;
+      font-size: 24px;
+      line-height: 1.2;
+      font-weight: 700;
+      color: #111111;
+    }
+
+    #section-{{ section.id }} .brand-links-row__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+
+    #section-{{ section.id }} .brand-links-row__button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      background: #223383;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+      border: none;
+      box-shadow: none;
+    }
+
+    #section-{{ section.id }} .brand-links-row__button:hover {
+      opacity: 0.92;
+      transform: translateY(-1px);
+      color: #ffffff;
+    }
+
+    #section-{{ section.id }} .brand-links-row__button[aria-disabled="true"] {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+
+    @media screen and (max-width: 749px) {
+      #section-{{ section.id }} .brand-links-row__heading {
+        font-size: 20px;
+        margin-bottom: 14px;
+      }
+
+      #section-{{ section.id }} .brand-links-row__list {
+        gap: 10px;
+      }
+
+      #section-{{ section.id }} .brand-links-row__button {
+        padding: 10px 16px;
+        font-size: 14px;
+      }
+    }
+  </style>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Brand links row",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Rubrik",
+      "default": "Shop by brand"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top padding",
+      "min": 0,
+      "max": 60,
+      "step": 4,
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom padding",
+      "min": 0,
+      "max": 60,
+      "step": 4,
+      "default": 12
+    }
+  ],
+  "blocks": [
+    {
+      "type": "brand",
+      "name": "Brand",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Knapptext",
+          "default": "Titleist"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Länk"
+        },
+        {
+          "type": "text",
+          "id": "show_on_handles",
+          "label": "Visa på kategorihandles",
+          "info": "Skriv en eller flera collection handles, separerade med kommatecken. Exempel: fairwaywoods, drivers",
+          "default": "fairwaywoods"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Brand links row"
+    }
+  ],
+  "max_blocks": 30
+}
+{% endschema %}

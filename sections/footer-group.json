@@ -1,0 +1,311 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "1770027659d9b7b9d9": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_4e28875_rhNiq8": {
+          "type": "ai_gen_block_4e28875",
+          "settings": {
+            "heading": "Våra öppettider",
+            "text": "För kompletta och avvikande öppettider gå till våra butikssidor",
+            "link_text": "Öppettider",
+            "link_url": "/pages/oppettider-3",
+            "text_alignment": "center",
+            "desktop_width_percent": 100,
+            "padding_top": 40,
+            "padding_bottom": 40,
+            "padding_horizontal": 20,
+            "heading_size": 32,
+            "heading_color": "#ffffff",
+            "spacing_below_heading": 15,
+            "text_size": 16,
+            "text_color": "#ffffff",
+            "spacing_below_text": 25,
+            "button_text_size": 16,
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_hover_background": "#c4301c",
+            "button_hover_text_color": "#ffffff",
+            "button_border_radius": 30,
+            "background_color": "#223383"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_4e28875_rhNiq8"
+      ],
+      "settings": {}
+    },
+    "multicolumn_icon_rTKNUF": {
+      "type": "multicolumn-icon",
+      "blocks": {
+        "column_PnJ3NJ": {
+          "type": "column",
+          "settings": {
+            "icon": "clock",
+            "max_width": 28,
+            "max_width_mb": 28,
+            "title": "Innesvingen Mölndal",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "text-base",
+            "heading_font": "heading",
+            "text": "<p>Måndag – Fredag<br/>10.00 – 19.00</p><p>Lördag<br/>10.00 – 16.00</p><p>Söndag<br/>11.00 - 15.00</p><p>Se länk ovan för avvikande öppettider</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_c6bcwa": {
+          "type": "column",
+          "settings": {
+            "icon": "clock",
+            "max_width": 28,
+            "max_width_mb": 28,
+            "title": "Innesvingen Kungälv",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "text-base",
+            "heading_font": "heading",
+            "text": "<p>Måndag – Fredag<br/>10.00 – 18.00</p><p>Lördag<br/>10.00 – 16.00</p><p>Söndag<br/>11.00 - 15.00</p><p>Se länk ovan för avvikande öppettider</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_xNjRtG": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "max_width": 28,
+            "max_width_mb": 28,
+            "title": "Kontakta oss",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "text-base",
+            "heading_font": "heading",
+            "text": "<p>Mölndal: <br/>031-706 75 60</p><p>Kungälv:<br/>0303-214995</p><p>E-post:<br/><a href=\"mailto:info@innesvingen.se\" title=\"mailto:info@innesvingen.se\">info@innesvingen.se</a></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_ngN6XL": {
+          "type": "column",
+          "settings": {
+            "icon": "map-pin",
+            "max_width": 32,
+            "max_width_mb": 32,
+            "title": "Adress",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "text-base",
+            "heading_font": "heading",
+            "text": "<p>Innesvingen Mölndal<br/>Flöjelbergsgatan 12<br/>431 37 Mölndal</p><p>Innesvingen Kungälv<br/>Bilgatan 3<br/>44250 Kungälv</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "column_PnJ3NJ",
+        "column_c6bcwa",
+        "column_xNjRtG",
+        "column_ngN6XL"
+      ],
+      "custom_css": [
+        ".rich-text__text {--text-margin-top: 0.4rem;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-2",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "enable_sticky": false,
+        "card_color_scheme": "",
+        "content_alignment": "left",
+        "image_position": "left",
+        "icon_color": "#1d349a",
+        "columns_desktop": 4,
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "show_divider_col": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter_3qCrWc": {
+          "type": "newsletter",
+          "settings": {
+            "block_width": 55,
+            "heading": "Få 10–15 % rabatt i vår kundklubb",
+            "heading_size": "h3",
+            "newsletter_description": "<p>Som medlem kan du ta del av rabatter påå <strong>10–15 % rabatt</strong> på vårt ordinarie sortiment. Passa på att göra riktiga <strong>klipp på dina favoritprodukter</strong>! För att erhålla rabatterna måste du vara inloggad och vara prenumerant.<br/><br/></p><p></p>",
+            "newsletter_term": "<p>Genom att prenumerera godkänner du våra <a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Terms of Services</a>  och  <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy.</a></p>",
+            "newsletter_text_alignment": "left",
+            "form_width": 465,
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "order_first": true
+          }
+        },
+        "menu_DEKGYP": {
+          "type": "menu",
+          "settings": {
+            "block_width": 15,
+            "heading": "Information",
+            "heading_size": "h6",
+            "menu": "footer-information",
+            "open_default": false,
+            "show_divider": false
+          }
+        },
+        "menu_4eCrBB": {
+          "type": "menu",
+          "settings": {
+            "block_width": 15,
+            "heading": "Butikerna",
+            "heading_size": "h6",
+            "menu": "footer",
+            "open_default": false,
+            "show_divider": false
+          }
+        },
+        "menu_6cjHfA": {
+          "type": "menu",
+          "settings": {
+            "block_width": 15,
+            "heading": "Webbshop",
+            "heading_size": "h6",
+            "menu": "footer-2",
+            "open_default": false,
+            "show_divider": false
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_3qCrWc",
+        "menu_DEKGYP",
+        "menu_4eCrBB",
+        "menu_6cjHfA"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "social_button_style": "btn--icon",
+        "enable_country_selector": true,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "footer_layout": "standard",
+        "footer_bottom_menu": "",
+        "show_sperator_line": true,
+        "show_section_divider": true,
+        "divider_width": "fixed",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "mobile_sticky_bar_aYhgJK": {
+      "type": "mobile-sticky-bar",
+      "blocks": {
+        "home_AP8mmy": {
+          "type": "home",
+          "settings": {
+            "text": "Home"
+          }
+        },
+        "cart_gnnwxQ": {
+          "type": "cart",
+          "settings": {
+            "text": "Cart"
+          }
+        },
+        "products_eYYkE8": {
+          "type": "products",
+          "settings": {
+            "text": "Products",
+            "collection": ""
+          }
+        },
+        "link_mJ6QMc": {
+          "type": "link",
+          "settings": {
+            "text": "About",
+            "url": "",
+            "icon": "map-pin"
+          }
+        }
+      },
+      "block_order": [
+        "home_AP8mmy",
+        "cart_gnnwxQ",
+        "products_eYYkE8",
+        "link_mJ6QMc"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sticky_bar": true,
+        "show_text": true
+      }
+    }
+  },
+  "order": [
+    "1770027659d9b7b9d9",
+    "multicolumn_icon_rTKNUF",
+    "footer",
+    "mobile_sticky_bar_aYhgJK"
+  ]
+}

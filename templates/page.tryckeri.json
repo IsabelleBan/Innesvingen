@@ -1,0 +1,289 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_overlay_ee3jEd": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_rkPMaM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Eget tryckeri",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rkPMaM"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "full",
+        "image": "shopify://shop_images/Tryckeri-print.webp",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 25,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "mobile_height": "auto",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "enable_preload_image": false
+      }
+    },
+    "rich_text_kmfMjc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fwRKDD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Profilverksamhet & Logobollar",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_YcCXWP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ta hjälp av Innesvingens tryckeri för att profilera ditt företag på bästa sätt.</p><p>Vi erbjuder både stora och små volymer, så även mindre företag kan profilsera sig.</p><p>För enklare tryck i små serier kan vi även leverera med kort varsel!</p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fwRKDD",
+        "text_YcCXWP"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_4ftxzC": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_btYEaF": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_ctbYth": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mer än bara tryck på bollar",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_GMp3ck": {
+          "type": "text",
+          "settings": {
+            "text": "<p>När man tänker profilering inom golf är golfbollar ofta det första som kommer upp – men möjligheterna är så mycket större! Vi erbjuder ett brett sortiment av tryck och brodyr på golfutrustning, kläder och andra profilprodukter.</p><p></p><p>Om du behöver hjälp att profilera ditt företag tveka inte att kontakta oss. Vi har alltid prover i lager på pikéer, vindjackor och andra profilprodukter.</p>",
+            "subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_btYEaF",
+        "heading_ctbYth",
+        "text_GMp3ck"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/Logobollar-Innesvingen-tryckeri.webp",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "image_with_text_yqb3mJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_zRCyi6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_KmLp8J": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vårt sortiment",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_RqpqQQ": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Logobollar <em>(vi tillhandahåller alla kända märken)</em></li><li>Give Aways <em>(pennor, peggar, greenlagare etc.)</em></li><li>Startkit <em>(kit med peggar, pennor, greenlagare etc.)</em></li><li>Pikéer</li><li>Vindjackor (<em>ex. softshell-material)</em></li><li>Kepsar</li><li>Väskor <em>(funktionsväskor/sportväskor)</em></li><li>Golftillbehör <em>(handskar, handdukar, paraplyer etc.)</em></li></ul>",
+            "subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zRCyi6",
+        "heading_KmLp8J",
+        "text_RqpqQQ"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/Tryckeri-Innesvingen-golfbollar.webp",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_9Jg3b4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qhx9ic": {
+          "type": "heading",
+          "settings": {
+            "heading": "Intresserad att veta kostnaden av dina tryckprodukter?",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_E8WbKt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ring oss på 031-7067560 eller kontakta oss via mailinfo@innesvingen.se</p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qhx9ic",
+        "text_E8WbKt"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-10",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_icon_cards_bCxeiN": {
+      "type": "custom-icon-cards",
+      "blocks": {
+        "card_7RWGdk": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-truck\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle></svg>",
+            "heading": "Leverans",
+            "description": "2 – 5 arbetsdagar"
+          }
+        },
+        "card_PXgR6i": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-refresh-cw\"><polyline points=\"23 4 23 10 17 10\"></polyline><polyline points=\"1 20 1 14 7 14\"></polyline><path d=\"M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15\"></path></svg>",
+            "heading": "Öppet köp",
+            "description": "14 dagar"
+          }
+        },
+        "card_HJpEYf": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-user\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"></path><circle cx=\"12\" cy=\"7\" r=\"4\"></circle></svg>",
+            "heading": "Kundklubb",
+            "description": "Exklusiva erbjudanden"
+          }
+        }
+      },
+      "block_order": [
+        "card_7RWGdk",
+        "card_PXgR6i",
+        "card_HJpEYf"
+      ],
+      "name": "Icon Cards",
+      "settings": {
+        "color_scheme": "scheme-1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_ee3jEd",
+    "rich_text_kmfMjc",
+    "image_with_text_4ftxzC",
+    "image_with_text_yqb3mJ",
+    "rich_text_9Jg3b4",
+    "custom_icon_cards_bCxeiN"
+  ]
+}

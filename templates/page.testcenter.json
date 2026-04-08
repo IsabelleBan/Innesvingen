@@ -1,0 +1,277 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_overlay_M88xCC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_ct9LzK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_47DzDP": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
+          }
+        },
+        "text_AjwNY6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/><br/></p>",
+            "text_size": "text-lg"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ct9LzK",
+        "heading_47DzDP",
+        "text_AjwNY6"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "full",
+        "image": "shopify://shop_images/trackhero.webp",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 25,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "mobile_height": "auto",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "enable_preload_image": false
+      }
+    },
+    "rich_text_rCniMV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Thh4GY": {
+          "type": "heading",
+          "settings": {
+            "heading": "TrackMan 4 Studio och 11 simulatorer.",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_JU4PmD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I vårt Testcenter, som är beläget i våra butiker, har du en unik möjlighet att kostnadsfritt testa och prova ut golfklubbor i våra avancerade golfsimulatorer. Innesvingens kunniga personal finns på plats för att hjälpa dig att hitta rätt klubbor just för dig.</p>",
+            "text_size": "text-lg",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_prbHnF": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Thh4GY",
+        "text_JU4PmD",
+        "button_prbHnF"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-10",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_hQPLbn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zgmqTq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Anpassade golfklubbor för varje golfares unika behov",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        },
+        "text_Cw69cn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En bra golfklubba måste utprovas och justeras så att den passar varje enskild golfare.</p><p>Utbudet av golfklubbsmodeller från olika producenter är stort och när man sen adderar alla variabler på skaft och grepp så blir kombinationerna nästan oändliga. Vi har otroligt bra testmöjligheter av golfutrustning i våra butiker. Vi vill att du ska känna dig trygg med ditt köp samtidigt som vi ser till så att du får de klubborna som är perfekt anpassade för din spelstil och nivå.<br/><br/>Vi anser också att känslan i slaget är minst lika viktigt som rätt specifikationer, så kom in och testa själv!</p>",
+            "subtext_color": true
+          }
+        },
+        "button_CUBU4A": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zgmqTq",
+        "text_Cw69cn",
+        "button_CUBU4A"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/Tcenter.webp",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "image_with_text_cU7TVi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xbBNFR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kunskap",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        },
+        "text_epaW8D": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vår personal utbildas kontinuerligt i det senaste inom Custom Fitting hos samtliga märken. De uppdaterar löpande sin kunskap om Trackman och dess värden med hjälp av företagets utbildare. Dessutom är alla av våra anställda mycket duktiga golfspelare med stor förståelse för golf och att det inte enbart är värdena i Trackman som är betydelsefulla, man ska också kunna spela med sina klubbor.<br/><br/></p>",
+            "subtext_color": true
+          }
+        },
+        "button_kM3ggm": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xbBNFR",
+        "text_epaW8D",
+        "button_kM3ggm"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/TrackMan.webp",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_icon_cards_bCxeiN": {
+      "type": "custom-icon-cards",
+      "blocks": {
+        "card_7RWGdk": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-truck\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle></svg>",
+            "heading": "Leverans",
+            "description": "2 – 5 arbetsdagar"
+          }
+        },
+        "card_PXgR6i": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-refresh-cw\"><polyline points=\"23 4 23 10 17 10\"></polyline><polyline points=\"1 20 1 14 7 14\"></polyline><path d=\"M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15\"></path></svg>",
+            "heading": "Öppet köp",
+            "description": "14 dagar"
+          }
+        },
+        "card_HJpEYf": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-user\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"></path><circle cx=\"12\" cy=\"7\" r=\"4\"></circle></svg>",
+            "heading": "Kundklubb",
+            "description": "Exklusiva erbjudanden"
+          }
+        }
+      },
+      "block_order": [
+        "card_7RWGdk",
+        "card_PXgR6i",
+        "card_HJpEYf"
+      ],
+      "name": "Icon Cards",
+      "settings": {
+        "color_scheme": "scheme-1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_M88xCC",
+    "rich_text_rCniMV",
+    "image_with_text_hQPLbn",
+    "image_with_text_cU7TVi",
+    "custom_icon_cards_bCxeiN"
+  ]
+}

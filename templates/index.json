@@ -1,0 +1,2052 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection_list_slider_6qbNfj": {
+      "type": "collection-list-slider",
+      "blocks": {
+        "featured_collection_L9N3Tg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vara-basta-fynd",
+            "image": "shopify://shop_images/deals.png",
+            "title": "Våra deals"
+          }
+        },
+        "featured_collection_gxdACj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "drivers",
+            "title": "Drivers"
+          }
+        },
+        "featured_collection_4H9LzM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fairwaywoods",
+            "image": "shopify://shop_images/QuantomMaxFastFW2.png",
+            "title": "FWwoods"
+          }
+        },
+        "featured_collection_Mcd6U8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hybrider",
+            "image": "shopify://shop_images/Titleist_GT3_Hybrid_Catalog_01_RGB-20250109.webp",
+            "title": ""
+          }
+        },
+        "featured_collection_jQXtir": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jarnset",
+            "title": ""
+          }
+        },
+        "featured_collection_mFCdUY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "skor",
+            "image": "shopify://shop_images/FootJoy-FJ-Fuel-Sport-Golf-Shoes-55453-3_900x.progressive_1.webp",
+            "title": "Skor"
+          }
+        },
+        "featured_collection_jMA9xm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wedgar",
+            "image": "shopify://shop_images/Cobra_Wedge_1.webp",
+            "title": "Wedgar"
+          }
+        },
+        "featured_collection_J6hxH9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "putters",
+            "image": "shopify://shop_images/ZTBlack.png",
+            "title": "Putters"
+          }
+        },
+        "featured_collection_HwzPfD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "barbagar",
+            "image": "shopify://shop_images/Summit_Platinum_5.png",
+            "title": "Bärbagar"
+          }
+        },
+        "featured_collection_mxmQcw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vagnbagar",
+            "image": "shopify://shop_images/PioneerMonssonBlack.webp",
+            "title": ""
+          }
+        },
+        "featured_collection_GW3kAL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vagnar",
+            "image": "shopify://shop_images/svart.jpg",
+            "title": "Vagnar"
+          }
+        },
+        "featured_collection_J6V8fx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "elvagnar",
+            "image": "shopify://shop_images/Elvagn_CT62024.webp",
+            "title": "Elvagnar"
+          }
+        },
+        "featured_collection_NkFYeg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tillbehor",
+            "image": "shopify://shop_images/pegrosa.jpg",
+            "title": "Tillbehör"
+          }
+        },
+        "featured_collection_eBphH3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "golfbollar",
+            "image": "shopify://shop_images/AVX_1.webp",
+            "title": "Bollar"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_L9N3Tg",
+        "featured_collection_gxdACj",
+        "featured_collection_4H9LzM",
+        "featured_collection_Mcd6U8",
+        "featured_collection_jQXtir",
+        "featured_collection_mFCdUY",
+        "featured_collection_jMA9xm",
+        "featured_collection_J6hxH9",
+        "featured_collection_HwzPfD",
+        "featured_collection_mxmQcw",
+        "featured_collection_GW3kAL",
+        "featured_collection_J6V8fx",
+        "featured_collection_NkFYeg",
+        "featured_collection_eBphH3"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "hand_drawn_circle",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "#f5f5f0",
+        "highlight_text_color": "#000000",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "card_color_scheme": "scheme-1",
+        "card_style": "standard",
+        "card_heading_size": "text-base",
+        "card_image_ratio": "1/1",
+        "card_image_width": "medium",
+        "card_image_padding": "none",
+        "rounded_card_image": true,
+        "mobile_layout": "vertical",
+        "carousel_item_size": "auto",
+        "columns_desktop": 6,
+        "carousel_control_color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 20,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "1765964654099f898d": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_0d0fd30_xKrd3f": {
+          "type": "ai_gen_block_0d0fd30",
+          "settings": {
+            "grid_split": "70-30",
+            "box_height": 400,
+            "box_height_mobile": 400,
+            "gap": 20,
+            "gap_mobile": 15,
+            "border_radius": 0,
+            "content_padding": 40,
+            "content_padding_mobile": 20,
+            "content_max_width": 600,
+            "content_vertical_alignment": "flex-end",
+            "content_horizontal_alignment": "flex-start",
+            "text_alignment": "left",
+            "heading_size": 36,
+            "heading_color": "#ffffff",
+            "heading_spacing": 16,
+            "text_size": 16,
+            "text_color": "#ffffff",
+            "text_spacing": 20,
+            "button_gap": 10,
+            "button_padding_vertical": 12,
+            "button_padding_horizontal": 30,
+            "button_border_radius": 4,
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "button_border_color": "#000000",
+            "button_hover_background": "#333333",
+            "button_hover_text_color": "#ffffff",
+            "button_hover_border_color": "#333333",
+            "button_secondary_background": "rgba(0,0,0,0)",
+            "button_secondary_text_color": "#ffffff",
+            "button_secondary_border_color": "#ffffff",
+            "button_secondary_hover_background": "#ffffff",
+            "button_secondary_hover_text_color": "#000000",
+            "button_secondary_hover_border_color": "#ffffff",
+            "box1_image": "shopify://shop_images/7764.webp",
+            "box1_overlay_color": "#000000",
+            "box1_overlay_opacity": 30,
+            "box1_heading": "Boka en Customfitting",
+            "box1_text": "I vår nyrenoverade studio använder vi TrackMan för att analysera din sving med exakt data på bollflykt, längd, spinntal och precision – så att du får klubbor som är perfekt anpassade för ditt spel.\n\nBoka din custom fitting idag och känn skillnaden på banan.",
+            "box1_button1_text": "Boka i Mölndal",
+            "box1_button1_link": "https://boka.easycashier.se/innesvingengolf/customfitting/chooseTimeSlot",
+            "box1_button2_text": "Boka i Kungälv",
+            "box1_button2_link": "https://boka.easycashier.se/innesvingengolf/customfitting/chooseTimeSlot",
+            "box1_button3_text": "Läs mer om customfitting",
+            "box1_button3_link": "/pages/custom-fitting-1",
+            "box2_image": "shopify://shop_images/putting-simulator.webp",
+            "box2_overlay_color": "#000000",
+            "box2_overlay_opacity": 50,
+            "box2_heading": "Spela simulatorgolf med Full Swing Golf",
+            "box2_text": "Samma teknik som i TGL - Full Swing Golf kombinerar avancerad tracking med immersiv grafik, vilket ger dig exakt data och en spelupplevelse som känns på riktigt.",
+            "box2_button1_text": "Boka simulatorerna",
+            "box2_button1_link": "https://innesvingen.se/pages/simulatorgolf-1",
+            "box2_button2_text": "",
+            "box2_button2_link": "",
+            "box2_button3_text": "",
+            "box2_button3_link": "",
+            "box3_image": "shopify://shop_images/pexels-thomasleeward-2828723.jpg",
+            "box3_overlay_color": "#000000",
+            "box3_overlay_opacity": 30,
+            "box3_heading": "Våra erbjudanden",
+            "box3_text": "Alltid en bra deal",
+            "box3_button1_text": "Se våra erbjudanden",
+            "box3_button1_link": "shopify://collections/rea-och-erbjudanden",
+            "box3_button2_text": "",
+            "box3_button2_link": "",
+            "box3_button3_text": "",
+            "box3_button3_link": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_0d0fd30_xKrd3f"
+      ],
+      "settings": {}
+    },
+    "video_hero_Qejpp9": {
+      "type": "video-hero",
+      "blocks": {
+        "subheading_QB6EWD": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Full Swing Simulatorer"
+          }
+        },
+        "heading_3DPExj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Simulator golf",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QB6EWD",
+        "heading_3DPExj"
+      ],
+      "disabled": true,
+      "name": "t:sections.video-hero.name",
+      "settings": {
+        "container": "full",
+        "video": "shopify://files/videos/Team Full Swing_2021.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "video_height": "adapt",
+        "overlay_opacity": 70,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-center",
+        "content_alignment": "center",
+        "video_mobile_height": "adapt",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "featured_collection_bdaamt": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_jM9dUw": {
+          "type": "collection",
+          "settings": {
+            "collection": "nyheter-drivers",
+            "title": "Nya drivers",
+            "show_banner": true,
+            "color_scheme": "scheme-inverse",
+            "card_link": "shopify://collections/nyheter-drivers",
+            "banner_image": "shopify://shop_images/zalatoris1.jpg",
+            "image_overlay_opacity": 18,
+            "content_position": "bottom-center",
+            "content_alignment": "center",
+            "subheading": "Utforska årets nya Drivers-kollektion",
+            "subheading_style": "",
+            "heading": "Nyheter Drivers",
+            "highlight_style": "hand_drawn_circle",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "#adadad",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-lg",
+            "button_label": "Utforska",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "collection_ydJPzX": {
+          "type": "collection",
+          "settings": {
+            "collection": "cobra-2026",
+            "title": "Cobra",
+            "show_banner": true,
+            "color_scheme": "scheme-inverse",
+            "card_link": "",
+            "banner_image": "shopify://shop_images/SS26_Ecom_COBRA_PLP_3DP_Explore_MB-min.jpg",
+            "image_overlay_opacity": 20,
+            "content_position": "split-bottom-button",
+            "content_alignment": "left",
+            "subheading": "Nyheter",
+            "subheading_style": "",
+            "heading": "Cobra 2026",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Se alla nyheter",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "collection_rXF7JE": {
+          "type": "collection",
+          "settings": {
+            "collection": "callaway-nyheter",
+            "title": "Callaway",
+            "show_banner": true,
+            "color_scheme": "scheme-2",
+            "card_link": "shopify://collections/callaway",
+            "banner_image": "shopify://shop_images/CGI-1920x1080-Alex-Noren.jpg",
+            "image_overlay_opacity": 0,
+            "content_position": "bottom-center",
+            "content_alignment": "center",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Callaway",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-sm",
+            "button_label": "Köp här",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "collection_E83rKg": {
+          "type": "collection",
+          "settings": {
+            "collection": "titleist-nyheter",
+            "title": "Titleist",
+            "show_banner": true,
+            "color_scheme": "scheme-inverse",
+            "card_link": "shopify://collections/titleist-wedgar",
+            "banner_image": "shopify://shop_images/251010_titleist_tpi_vokey_sm11_hamilton_74941_R2_RGB.jpg",
+            "image_overlay_opacity": 20,
+            "content_position": "split-bottom-button",
+            "content_alignment": "left",
+            "subheading": "Titleist",
+            "subheading_style": "",
+            "heading": "Vokey SM 11",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Köp här",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_jM9dUw",
+        "collection_ydJPzX",
+        "collection_rXF7JE",
+        "collection_E83rKg"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Nyheter",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "<p>Vi har nyheterna från de stora varumärkena inom golf </p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "limit": 7,
+        "columns": 5,
+        "column_gap": "medium",
+        "row_gap": "large",
+        "enable_slider": true,
+        "content_overflow": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "show_progress_bar": true,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_content_HPgFTK": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_with_product_qBJGcT": {
+          "type": "image_card_with_product",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/SS26_Ecom_COBRA_PLP_3DP_Explore_MB-min.jpg",
+            "image_ratio": "3/4",
+            "subheading": "Cobra",
+            "heading": "3DP",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "description": "",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "product": "cobra-limit3d-6-jarn-stal-7-pw-2025-custom",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "image_card_with_product_G77z3R": {
+          "type": "image_card_with_product",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/imgi_92_CGE-QUANTUM-1920x1080.jpg",
+            "image_ratio": "3/4",
+            "subheading": "Callaway",
+            "heading": "Quantum",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "description": "",
+            "button_label": "Shop",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "product": "callaway-quantum-max-driver",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "image_card_with_product_3khACH": {
+          "type": "image_card_with_product",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/251010_titleist_tpi_vokey_sm11_hamilton_74941_R2_RGB.jpg",
+            "image_ratio": "3/4",
+            "subheading": "Titleist",
+            "heading": "Vokey SM 11",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "description": "",
+            "button_label": "Shop",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "product": "titleist-vokey-sm11-tour-chrome",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "image_card_with_product_dMnGc4": {
+          "type": "image_card_with_product",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/AI-DUAL-Square-2-Square-_7-082925-02-1822.jpg",
+            "image_ratio": "3/4",
+            "subheading": "Odyssey",
+            "heading": "Square 2 Square",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "description": "",
+            "button_label": "Shop",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "product": "odyssey-tri-hot-square-2-square",
+            "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_with_product_qBJGcT",
+        "image_card_with_product_G77z3R",
+        "image_card_with_product_3khACH",
+        "image_card_with_product_dMnGc4"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "column_gap": "2xs",
+        "row_gap": "large",
+        "swipe_on_mobile": true,
+        "columns_mobile": "1",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_list_Azm9te": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_KdFqFq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "callaway",
+            "image": "shopify://shop_images/Callaway.png",
+            "title": ""
+          }
+        },
+        "featured_collection_d8XGnb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "titleist",
+            "image": "shopify://shop_images/Titleist.png",
+            "title": ""
+          }
+        },
+        "featured_collection_FzRWDn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cobra",
+            "image": "shopify://shop_images/COBRA.png",
+            "title": ""
+          }
+        },
+        "featured_collection_at4gCr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "taylormade",
+            "image": "shopify://shop_images/TaylorMade.png",
+            "title": ""
+          }
+        },
+        "featured_collection_CdewAP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/FootJoy.png",
+            "title": "FootJoy"
+          }
+        },
+        "featured_collection_BhWdQb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/SuperStroke.png",
+            "title": "SuperStroke"
+          }
+        },
+        "featured_collection_dmBQwi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Puma.png",
+            "title": "Puma"
+          }
+        },
+        "featured_collection_F69pQy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mizuno",
+            "image": "shopify://shop_images/MIZUNO.png",
+            "title": ""
+          }
+        },
+        "featured_collection_JV9tDT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ping",
+            "image": "shopify://shop_images/PING.png",
+            "title": "PING"
+          }
+        },
+        "featured_collection_WLrpbE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "srixon",
+            "image": "shopify://shop_images/SRIXON.png",
+            "title": "Srixon"
+          }
+        },
+        "featured_collection_qdrbEr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "odyssey",
+            "image": "shopify://shop_images/ODYSSEY.png",
+            "title": "Odyssey"
+          }
+        },
+        "featured_collection_Pa8kFP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lab",
+            "image": "shopify://shop_images/L.A.B._Golf.png",
+            "title": "L.A.B. Golf"
+          }
+        },
+        "featured_collection_UTWiiY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cleveland",
+            "image": "shopify://shop_images/Cleveland.png",
+            "title": "Cleveland"
+          }
+        },
+        "featured_collection_rkynNN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sunmountain",
+            "image": "shopify://shop_images/SUN_Mountain.png",
+            "title": "SUN Mountain"
+          }
+        },
+        "featured_collection_8t9tJr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "powakaddy",
+            "image": "shopify://shop_images/PowaKaddy.png",
+            "title": "PowaKaddy"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_KdFqFq",
+        "featured_collection_d8XGnb",
+        "featured_collection_FzRWDn",
+        "featured_collection_at4gCr",
+        "featured_collection_CdewAP",
+        "featured_collection_BhWdQb",
+        "featured_collection_dmBQwi",
+        "featured_collection_F69pQy",
+        "featured_collection_JV9tDT",
+        "featured_collection_WLrpbE",
+        "featured_collection_qdrbEr",
+        "featured_collection_Pa8kFP",
+        "featured_collection_UTWiiY",
+        "featured_collection_rkynNN",
+        "featured_collection_8t9tJr"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Shoppa allt för ditt varumärke",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "Visa alla produkter",
+        "button_link": "shopify://collections/alla-produtker",
+        "button_style": "btn--plain",
+        "button_icon": "caret-right",
+        "card_color_scheme": "",
+        "card_style": "standard",
+        "card_heading_size": "text-base",
+        "card_text_line_limit": "none",
+        "card_image_ratio": "1/1",
+        "card_image_width": "large",
+        "card_image_padding": "none",
+        "rounded_card_image": true,
+        "card_show_border": false,
+        "mobile_layout": "vertical",
+        "columns_desktop": 5,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "grid_bordered": true,
+        "columns_mobile": "3",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_tabs_VexkkR": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_kXyTe3": {
+          "type": "collection",
+          "settings": {
+            "collection": "zero-torque-putters",
+            "image": "shopify://shop_images/11R.webp",
+            "title": "Scotty Cameron",
+            "text": "<p>Scotty lanserar Zero Torque</p>",
+            "button_label": "Se vårt sortiment av Zero Torque",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "collection_DNzfbd": {
+          "type": "collection",
+          "settings": {
+            "collection": "lab",
+            "image": "shopify://shop_images/lab_golf_oz_1i_putter_address_1.webp",
+            "title": "L.A.B Putters",
+            "text": "",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "collection_qxfNFe": {
+          "type": "collection",
+          "settings": {
+            "collection": "taylormade-putters",
+            "image": "shopify://shop_images/ZTBlack2dotscounterbalance.png",
+            "title": "Taylor Made",
+            "text": "<p>TaylorMades Super Coola Zero Tourqe putters</p>",
+            "button_label": "Köp här",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "collection_j3wCpz": {
+          "type": "collection",
+          "settings": {
+            "collection": "odyssey",
+            "image": "shopify://shop_images/AI-DUAL-Square-2-Square-_7-082925-02-1822.jpg",
+            "title": "Odyssey Tri-Hot ",
+            "text": "",
+            "button_label": "Shop Collection",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_kXyTe3",
+        "collection_DNzfbd",
+        "collection_qxfNFe",
+        "collection_j3wCpz"
+      ],
+      "custom_css": [
+        "@media (min-width: 1280px) {collection-tabs {padding-inline: 5rem; }}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-2",
+        "heading": "Heta Putters - Zero Tourqe",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "#ffffff",
+        "highlight_text_color": "",
+        "heading_size": "h6",
+        "image_position": "right",
+        "image_ratio": "1/1",
+        "collection_heading_size": "h1",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "favorite_products_6Tg9Pn": {
+      "type": "favorite-products",
+      "blocks": {
+        "product_XrLWzM": {
+          "type": "product",
+          "settings": {
+            "color_scheme": "scheme-7",
+            "product": "cobra-3dp-tour-7jarn",
+            "image": "shopify://shop_images/25SS_Ecom_GO_Clubs_3DPTourIrons_PLP_Slices_704x880px_History-1.webp",
+            "text": "<p>“Tour-level precision with the ultimate consistency that aspirational golfers desire..”</p>",
+            "text_size": "h2",
+            "author": "Jenny Wilson",
+            "bio": "New Mexico"
+          }
+        },
+        "product_wByADN": {
+          "type": "product",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "product": "cobra-king-3dp-agera-putter-armlock-demo",
+            "image": "shopify://shop_images/3dp_lp_img4_second_putter_fam_704x880-min.webp",
+            "text": "<p>“Each piece is authentic and carefully sourced from its place of origin.”</p>",
+            "text_size": "h2",
+            "author": "Julie Mathers",
+            "bio": "Australia"
+          }
+        },
+        "product_8UUtBe": {
+          "type": "product",
+          "settings": {
+            "color_scheme": "scheme-6",
+            "product": "cobra-king-3dp-supernova-putter-demo",
+            "image": "shopify://shop_images/24SS_GO_Cobra_Brand_Go-Chase-More_Princes-Golf-Club_ARJ7066_1.jpg",
+            "text": "<p>“Crafted with care using local materials, each piece reflects the character of its origin.”</p>",
+            "text_size": "h2",
+            "author": "John Doe",
+            "bio": "New York"
+          }
+        }
+      },
+      "block_order": [
+        "product_XrLWzM",
+        "product_wByADN",
+        "product_8UUtBe"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".testimonial__content {max-width: 46rem;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "layout": "content-right",
+        "heading": "Our Favorite Products",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "slide_height": "small",
+        "pcard_style": "boxed",
+        "pcard_image_ratio": "",
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "lookbook_slider_9zCdQJ": {
+      "type": "lookbook-slider",
+      "blocks": {
+        "lookbook_card_8cicAx": {
+          "type": "lookbook_card",
+          "settings": {
+            "product_list": [
+              "titleist-gt3-driver",
+              "titleist-new-t100-5-pw-amt-blk-s300-mcc-blk-blk",
+              "titleist-vokey-sm10",
+              "titleist-pro-v1x-2025"
+            ],
+            "width": 59,
+            "width_mobile": 90,
+            "image": "shopify://shop_images/Ludvig_Aberg_PM_Banner_Large_06132023.webp",
+            "heading": "Ludvigsbag",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "#ffffff",
+            "highlight_text_color": "#ffffff",
+            "heading_size": "h6"
+          }
+        },
+        "lookbook_card_eJEDWt": {
+          "type": "lookbook_card",
+          "settings": {
+            "product_list": [
+              "cobra-king-cb-6-jarn-stal-5-pw-2024-custom",
+              "cobra-optm-ls-driver"
+            ],
+            "width": 50,
+            "width_mobile": 50,
+            "image": "shopify://shop_images/C-MHoma_Tour.webp",
+            "heading": "Max Homas bag",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5"
+          }
+        },
+        "lookbook_card_eUB7yN": {
+          "type": "lookbook_card",
+          "settings": {
+            "product_list": [
+              "cobra-optm-x-driver",
+              "cobra-optm-x-fairway",
+              "cobra-king-tec-hybrid-1"
+            ],
+            "width": 29,
+            "width_mobile": 65,
+            "image": "shopify://shop_images/J_Dantorp_cobra.webp",
+            "heading": "Jens Dantorps Bag",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "lookbook_card_8cicAx",
+        "lookbook_card_eJEDWt",
+        "lookbook_card_eUB7yN"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "Vad spelar proffsen",
+        "heading": "What's in the bag",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "#ffffff",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "description_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "2xs",
+        "enable_slider": true,
+        "slide_height": "medium",
+        "enable_swiper_mobile": true,
+        "show_progress_bar": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "custom_content_JxRy7x": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_mL7WWJ": {
+          "type": "image_card",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/MAX2.png",
+            "image_ratio": "1/1",
+            "image_overlay_opacity": 6,
+            "content_position": "below",
+            "content_alignment": "left",
+            "content_spacing": "small",
+            "content_gap": "fitted",
+            "card_link": "",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Cobra DS-Adapt",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "<p>En av 2025 års stor säljare bland drivers nu till lägre pris</p>",
+            "button_label": "Köp nu",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "show_badge": true,
+            "badge_color_scheme": "scheme-8",
+            "badge_shape": "circle",
+            "badge_position": "top-right",
+            "badge_subtext": "Spara",
+            "badge_text": "29%",
+            "color_scheme_mobile": "scheme-1",
+            "show_text_below": false,
+            "content_alignment_mobile": "left",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "enable_preload_image": false
+          }
+        },
+        "image_card_Vj69GM": {
+          "type": "image_card",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/0001s_0000s_0000s_0000_MICRA-YELLOW-OPEN-FRONT.jpg",
+            "image_ratio": "1/1",
+            "image_overlay_opacity": 6,
+            "content_position": "below",
+            "content_alignment": "left",
+            "content_spacing": "medium",
+            "content_gap": "standard",
+            "card_link": "https://innesvingen.se/products/powakaddy-micra-svart-blaa-detaljer-kopia",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "PowaKaddy Micra",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "<p><strong>Ord: 3299:- Nu: 1999:-</strong></p>",
+            "button_label": "Köp nu",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "show_badge": true,
+            "badge_color_scheme": "scheme-8",
+            "badge_shape": "circle",
+            "badge_position": "top-right",
+            "badge_subtext": "Spara",
+            "badge_text": "39%",
+            "color_scheme_mobile": "scheme-1",
+            "show_text_below": false,
+            "content_alignment_mobile": "left",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_card_mL7WWJ",
+        "image_card_Vj69GM"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "column_gap": "2xs",
+        "row_gap": "inherit",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 58,
+        "padding_bottom": 24,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "buttons_with_icon_7zH9F3": {
+      "type": "buttons-with-icon",
+      "blocks": {
+        "button_item_VQE7f9": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Living Room",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_A8ctbq": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Planters",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_gp6wzj": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Gravel Rug",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_KjqtJi": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Table Mirror",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_Q3cegW": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Table Wears",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_pqRX7H": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Dining Decor",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_en8WtA": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Ray Table Lamp",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_JnFWN8": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Chairs",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_FrFqff": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Living Room",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_mKVJW4": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Planters",
+            "button_link": "",
+            "icon": "check"
+          }
+        }
+      },
+      "block_order": [
+        "button_item_VQE7f9",
+        "button_item_A8ctbq",
+        "button_item_gp6wzj",
+        "button_item_KjqtJi",
+        "button_item_Q3cegW",
+        "button_item_pqRX7H",
+        "button_item_en8WtA",
+        "button_item_JnFWN8",
+        "button_item_FrFqff",
+        "button_item_mKVJW4"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "item_alignment": "left",
+        "item_button_style": "btn--icon",
+        "item_button_font": "button",
+        "enable_slider": true,
+        "swipe_on_mobile": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_RWUfH9": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_tqdqYc": {
+          "type": "collection",
+          "settings": {
+            "collection": "vara-basta-fynd",
+            "title": "",
+            "show_banner": false,
+            "color_scheme": "",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_tqdqYc"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Alltid en bra deal!",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "<p>Missa inte våra dels under erbjudanden</p>",
+        "text_size": "text-base",
+        "button_label": "Gå till våra erbjudanden",
+        "button_link": "",
+        "button_style": "btn--plain",
+        "button_icon": "caret-right",
+        "limit": 8,
+        "columns": 5,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "content_overflow": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_aXhRxw": {
+      "type": "image-with-text",
+      "blocks": {
+        "badge_fQjMHW": {
+          "type": "badge",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "text": "Golfbutiken där du provar innan du köper",
+            "image": "shopify://shop_images/trackman.png",
+            "position_mobile": "right"
+          }
+        },
+        "subheading_8kBXjM": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Customfitting"
+          }
+        },
+        "heading_jnb9cP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Hos Innesvingen testar du innan du köper med riktig feedback, i rätt miljö, med rätt människor.</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_4pYVYF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Golfbutiken där du provar innan du köper </p>",
+            "subtext_color": true
+          }
+        },
+        "icon_with_text_8qCJiV": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "check",
+            "icon_width": 24,
+            "color": "#000000",
+            "heading": "Trackman testning",
+            "heading_size": "h5",
+            "text": "",
+            "vertical_alignment": "start"
+          }
+        },
+        "icon_with_text_w4D3R6": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "smiley",
+            "icon_width": 24,
+            "color": "#000000",
+            "heading": "4,8 Review Score",
+            "heading_size": "h5",
+            "text": "",
+            "vertical_alignment": "start"
+          }
+        },
+        "icon_with_text_pcaqTj": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "stool",
+            "icon_width": 24,
+            "color": "#000000",
+            "heading": "Over 50 Products",
+            "heading_size": "h5",
+            "text": "",
+            "vertical_alignment": "start"
+          }
+        },
+        "button_aegkDr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Boka utprovning",
+            "button_link": "https://boka.easycashier.se/innesvingengolf/customfitting",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "badge_fQjMHW",
+        "subheading_8kBXjM",
+        "heading_jnb9cP",
+        "text_4pYVYF",
+        "icon_with_text_8qCJiV",
+        "icon_with_text_w4D3R6",
+        "icon_with_text_pcaqTj",
+        "button_aegkDr"
+      ],
+      "custom_css": [
+        ".image-with-text__content {max-width: 45rem; --text-margin-top: 2rem;}",
+        "@media (min-width: 1280px) {.image-with-text__media {padding-inline-start: 5rem; }}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/TrackMan-custom-fitting-3.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "testimonials_mLThk7": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_EtxFFg": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "heading": "Testimonials",
+            "text": "<p>“The products are artful, fun, have a story just as unique as the designers who made it.”</p>",
+            "author": "Jenny Wilson",
+            "bio": "New Mexico",
+            "product": ""
+          }
+        },
+        "testimonial_QPUyLy": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "heading": "Testimonials",
+            "text": "<p>“The best coat I have found.Great colors and materials for life style.”</p>",
+            "author": "Samantha Taylor",
+            "bio": "Portland, Oregon",
+            "product": ""
+          }
+        },
+        "testimonial_iTzQDb": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "heading": "Testimonials",
+            "text": "<p>“Every item feels like a masterpiece, blending creativity and authenticity beautifully.”</p>",
+            "author": "David Martinez",
+            "bio": "Austin, Texas",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_EtxFFg",
+        "testimonial_QPUyLy",
+        "testimonial_iTzQDb"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".testimonial__inner {max-width: 64rem; margin-left: auto; margin-right: auto;}"
+      ],
+      "settings": {
+        "container": "full",
+        "color_scheme": "scheme-2",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "What Clients Talk About Us",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h6",
+        "description": "",
+        "text_size": "text-base",
+        "layout": "focused",
+        "card_color_scheme": "scheme-1",
+        "card_content_color_scheme": "",
+        "card_image_ratio": "adapt",
+        "card_heading_size": "h4",
+        "card_text_size": "h2",
+        "author_info_layout": "vertical",
+        "card_trigger_behavior": "click",
+        "show_image": false,
+        "show_author_image": false,
+        "columns_desktop": 2,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_slider": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_progress_bar": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "slider_with_multicolumn_aJwbrc": {
+      "type": "slider-with-multicolumn",
+      "blocks": {
+        "slide_wNd9Jh": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image_overlay_opacity": 20,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "Hot Deals",
+            "heading": "The Bow Chairs Under $200",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "text": "<p>Introducing the latest styles in women's shoes tailored for every occasion taste.</p>",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "slide_cGYakP": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image_overlay_opacity": 20,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "Dining & Kitchen",
+            "heading": "Difference in the Details",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "text": "<p>Highlighting the unique touches that set every piece apart, crafted to elevate your style effortlessly.</p>",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "image_card_BXpdq6": {
+          "type": "image-card",
+          "settings": {
+            "color_scheme": "",
+            "content_alignment": "center",
+            "heading": "Select Table Lamps",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "<p>Get up to $100 Off</p>",
+            "card_link": ""
+          }
+        },
+        "image_card_yb3htw": {
+          "type": "image-card",
+          "settings": {
+            "color_scheme": "",
+            "content_alignment": "center",
+            "heading": "Select Lounge Chairs",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "<p>From $200</p>",
+            "card_link": ""
+          }
+        },
+        "image_card_7KqpyL": {
+          "type": "image-card",
+          "settings": {
+            "color_scheme": "",
+            "content_alignment": "center",
+            "heading": "Select Side tables",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "<p>Get up to $1.000</p>",
+            "card_link": ""
+          }
+        },
+        "image_card_ag7Eb3": {
+          "type": "image-card",
+          "settings": {
+            "color_scheme": "",
+            "content_alignment": "center",
+            "heading": "Select Home Decors",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "text": "<p>Buy One Get One</p>",
+            "card_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_wNd9Jh",
+        "slide_cGYakP",
+        "image_card_BXpdq6",
+        "image_card_yb3htw",
+        "image_card_7KqpyL",
+        "image_card_ag7Eb3"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".slide__text {max-width: 37rem; --text-margin-top: 2rem;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "autoplay": true,
+        "autoplay_delay": 6,
+        "columns_desktop": 2,
+        "column_gap": "2xs",
+        "row_gap": "inherit",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "scrolling_promotion_9Hng8m": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "text_m9JnRY": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Lounge Chairs",
+            "text_size": "h2",
+            "text_opacity": 100,
+            "use_custom_color": true,
+            "custom_color": "#1d349a"
+          }
+        },
+        "image_pmGhNr": {
+          "type": "image",
+          "settings": {
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 60
+          }
+        },
+        "text_gENJV7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text_link": "",
+            "text": "Bow Chairs",
+            "text_size": "h2",
+            "text_opacity": 100,
+            "use_custom_color": true,
+            "custom_color": "#1d349a"
+          }
+        },
+        "image_KBetgG": {
+          "type": "image",
+          "settings": {
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 60
+          }
+        },
+        "text_ETiRz6": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Cross Chair",
+            "text_size": "h2",
+            "text_opacity": 100,
+            "use_custom_color": true,
+            "custom_color": "#1d349a"
+          }
+        },
+        "image_ypAQyf": {
+          "type": "image",
+          "settings": {
+            "image_height": 72,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 60
+          }
+        }
+      },
+      "block_order": [
+        "text_m9JnRY",
+        "image_pmGhNr",
+        "text_gENJV7",
+        "image_KBetgG",
+        "text_ETiRz6",
+        "image_ypAQyf"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "direction": "left",
+        "pause_on_hover": true,
+        "speed": 0.3,
+        "h_spacing": 16,
+        "show_section_divider": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "buttons_with_icon_c8CzHV": {
+      "type": "buttons-with-icon",
+      "blocks": {
+        "button_item_TXLwjF": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Lagerslado online",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_tpCdia": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Testa i butikerna",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_wKgxpM": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Putting studio",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_Ngk44m": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Testa i trackman",
+            "button_link": "",
+            "icon": "check"
+          }
+        }
+      },
+      "block_order": [
+        "button_item_TXLwjF",
+        "button_item_tpCdia",
+        "button_item_wKgxpM",
+        "button_item_Ngk44m"
+      ],
+      "custom_css": [
+        ".section__header {--header-padding-bottom: 2.4rem;}",
+        ".section__heading {max-width: 45rem;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-9",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Hos Innesvingen hittar du alla de ledande golfvarumärkena och dess",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "item_alignment": "center",
+        "item_button_style": "btn--primary",
+        "item_button_font": "button",
+        "enable_slider": true,
+        "swipe_on_mobile": true,
+        "show_section_divider": true,
+        "divider_width": "full",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_Ff4Wbj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YWTLnF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Innesvingen-butik-enviornment.png",
+            "title": "Stort sortiment",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "<p>På vår hemsida ser du alltid <strong>aktuellt lagersaldo</strong>, så att du slipper oroa dig för om varan finns inne. Du kan enkelt se <strong>i vilken butik produkten finns</strong> – Kungälv eller Mölndal.<br/>Saknar du något i sortimentet? Inga problem – vi kan <strong>nästan alltid beställa hem det</strong>. Vår målsättning är att hemsidan ska spegla <strong>vårt verkliga sortiment i butik</strong>, så att du alltid vet vad som finns hos oss.<br/><br/><br/><br/></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_AwmLJY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/c1deb2c1-a750-4976-b418-210d80175128.png",
+            "title": "Alltid en bra deal",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "<p>Vi strävar alltid efter <strong>marknadsledande priser</strong> och ett brett utbud av prisvärda alternativ, som utgående modeller och kampanjer. Som medlem i vår <strong>kundklubb</strong> får du dessutom extra rabatter på vårt sortiment – så att du alltid får <strong>bra priser och verkligt konkurrenskraftiga erbjudanden</strong>.<br/><br/></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_j3Pdbn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/TrackMan.jpg",
+            "title": "NYA Test studio",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "<p>Vi har byggt en helt ny <strong>100 m² stor teststudio</strong> – ljus, luftig och fylld med <strong>de senaste produkterna och hjälpmedlen</strong> för att du ska kunna <strong>testa klubbor på bästa sätt</strong>. Här kan du uppleva utrustningen precis som ute på banan och hitta dina perfekta klubbor med proffshjälp.<br/><br/></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_MikwAx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/S2S-TRI-HOT-Lifestyle-082025-02-7647-2.jpg",
+            "title": "Putting studio",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "<p>Vi har byggt en ny putting green där du kan träna puttar upp till 10 meter. Mattan är dressad med äkta sand för en så realistisk känsla som möjligt, och här erbjuder vi även Custom Fitting på putters – för att du ska hitta puttern som verkligen passar ditt stroke.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "column_YWTLnF",
+        "column_AwmLJY",
+        "column_j3Pdbn",
+        "column_MikwAx"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "content_alignment": "left",
+        "show_col_count": false,
+        "show_image": true,
+        "columns_desktop": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    },
+    "scrolling_gallery_image_wJyLJr": {
+      "type": "scrolling-gallery-image",
+      "blocks": {
+        "gallery_zMzedj": {
+          "type": "gallery",
+          "settings": {
+            "color_scheme": "",
+            "image_link": "",
+            "social_media": "instagram",
+            "heading": "thisisaaccount"
+          }
+        },
+        "gallery_PALf8b": {
+          "type": "gallery",
+          "settings": {
+            "color_scheme": "",
+            "image_link": "",
+            "social_media": "instagram",
+            "heading": "furniturelover"
+          }
+        },
+        "gallery_t8EfbE": {
+          "type": "gallery",
+          "settings": {
+            "color_scheme": "",
+            "image_link": "",
+            "social_media": "none",
+            "heading": "thisisaaccount"
+          }
+        },
+        "gallery_HjXBVX": {
+          "type": "gallery",
+          "settings": {
+            "color_scheme": "",
+            "image_link": "",
+            "social_media": "instagram",
+            "heading": "baddyjam"
+          }
+        },
+        "gallery_Hdq7y7": {
+          "type": "gallery",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image_link": "",
+            "social_media": "instagram",
+            "heading": "liamwealthy"
+          }
+        },
+        "gallery_xaTeHP": {
+          "type": "gallery",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image_link": "",
+            "social_media": "instagram",
+            "heading": "baddyjam"
+          }
+        },
+        "gallery_gf99Q7": {
+          "type": "gallery",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image_link": "",
+            "social_media": "instagram",
+            "heading": "liamwealthy"
+          }
+        }
+      },
+      "block_order": [
+        "gallery_zMzedj",
+        "gallery_PALf8b",
+        "gallery_t8EfbE",
+        "gallery_HjXBVX",
+        "gallery_Hdq7y7",
+        "gallery_xaTeHP",
+        "gallery_gf99Q7"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Innesvingen",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "show_button_on_top": false,
+        "button_label": "@garage_store",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "direction": "left",
+        "speed": 0.1,
+        "pause_on_hover": true,
+        "column_gap": "medium",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "collection_list_slider_6qbNfj",
+    "1765964654099f898d",
+    "video_hero_Qejpp9",
+    "featured_collection_bdaamt",
+    "custom_content_HPgFTK",
+    "collection_list_Azm9te",
+    "collection_tabs_VexkkR",
+    "favorite_products_6Tg9Pn",
+    "lookbook_slider_9zCdQJ",
+    "custom_content_JxRy7x",
+    "buttons_with_icon_7zH9F3",
+    "featured_collection_RWUfH9",
+    "image_with_text_aXhRxw",
+    "testimonials_mLThk7",
+    "slider_with_multicolumn_aJwbrc",
+    "scrolling_promotion_9Hng8m",
+    "buttons_with_icon_c8CzHV",
+    "multicolumn_Ff4Wbj",
+    "scrolling_gallery_image_wJyLJr"
+  ]
+}

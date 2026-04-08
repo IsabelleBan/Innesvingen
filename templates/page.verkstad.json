@@ -1,0 +1,438 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_overlay_M88xCC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_ct9LzK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_47DzDP": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
+          }
+        },
+        "text_AjwNY6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/><br/></p>",
+            "text_size": "text-lg"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ct9LzK",
+        "heading_47DzDP",
+        "text_AjwNY6"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "full",
+        "image": "shopify://shop_images/Verkstad.webp",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 30,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "mobile_height": "auto",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "enable_preload_image": false
+      }
+    },
+    "rich_text_rCniMV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Thh4GY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Problem med golfutrustningen? Låt vår verkstad hjälpa till!",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_JU4PmD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vi har lösningen! Innesvingens golfverkstäder är utrustade med maskiner som är digitaliserade att uppnå exakta resultat och med kunnig personal!</p><p>Vi erbjuder snabb och professionellt service på din reperation,</p><p>allt ifrån klubbor till vagnar.</p><p>Med över 30 olika modeller golfgrepp i lager och ett omfattande sortiment av skaft kan vi anpassa utrustningen efter dina behov.</p><p>Vi har loft och lie maskiner för både putters och järnklubbor.</p><p>Skaft reperationer utförs inom ca 5 arbetsdagar och vi har alltid 24-timmars service på greppbyten. </p><p></p><p></p>",
+            "text_size": "text-lg",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_prbHnF": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Thh4GY",
+        "text_JU4PmD",
+        "button_prbHnF"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "scrolling_promotion_M9WirN": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "text_x8fYFr": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Välkommen på drop-in",
+            "text_size": "h1",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "text_hNiXeK": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Alltid en bra deal",
+            "text_size": "h1",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "text_4U4hGm": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Snabb service utan tidsbokning",
+            "text_size": "h1",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_x8fYFr",
+        "text_hNiXeK",
+        "text_4U4hGm"
+      ],
+      "name": "t:sections.scrolling-promotion.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "direction": "left",
+        "pause_on_hover": true,
+        "speed": 0.2,
+        "h_spacing": 40,
+        "show_section_divider": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_hQPLbn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zgmqTq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Grepp",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        },
+        "text_Cw69cn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vi har ett stort sortiment grepp på lager. Hos oss erhåller du alltid 24-timmars service på omgreppningar.</p><p>Vi jobbar med kvalitetsgrepp från bl. a.</p><ul><li>Golf–Pride,</li><li>Lamkin</li><li>Superstroke.</li></ul><p></p><p>Alltid 24 h service !!</p><p>Greppar ni 7 klubbor eller fler erhåller ni 15% rabatt!</p><p><a href=\"https://innesvingen.se/collections/grepp\" target=\"_blank\" title=\"https://innesvingen.se/collections/grepp\">Till vårt grepp sortiment</a></p>",
+            "subtext_color": true
+          }
+        },
+        "button_CUBU4A": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zgmqTq",
+        "text_Cw69cn",
+        "button_CUBU4A"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/verkstad-banner-innesvingen_0757f6bd-e1cb-4279-a8c6-0991b8946ec8.webp",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "image_with_text_cU7TVi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xbBNFR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Skaft",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        },
+        "text_epaW8D": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vare sig det är att ditt skaft gått av, du vill ha ett styvare eller mjukare skaft i klubban – är vi här för att hjälpa! Vi jobbar med skaft från alla ledande leverantörer t.ex.</p><ul><li>UST</li><li>Aldila</li><li>Grafolloy</li><li>TrueTemper</li></ul><p></p><p>Vi garanterar att din klubba är klar inom en vecka – <em>med undantag för beställningsvara.</em></p><p><a href=\"https://innesvingen.se/collections/skaft-1\" title=\"https://innesvingen.se/collections/skaft-1\"><em>Till våra skaft i lager: </em></a></p>",
+            "subtext_color": true
+          }
+        },
+        "button_kM3ggm": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xbBNFR",
+        "text_epaW8D",
+        "button_kM3ggm"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/session-cobra.webp",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "image_with_text_hapYtA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ky67yz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Softspikes",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        },
+        "text_Q9wr4T": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Svårt att byta dina softspikes på skorna? Vi erbjuder 24 – timmars service på spikbyten.<br/><br/></p>",
+            "subtext_color": true
+          }
+        },
+        "button_GALGcP": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ky67yz",
+        "text_Q9wr4T",
+        "button_GALGcP"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/spikes.webp",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_liquid_VneVVE": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.name",
+      "settings": {
+        "custom_liquid": "<div class=\"workshop-pricing\" style=\"max-width: 900px; margin: 40px auto; padding: 0 20px; font-family: sans-serif; color: #333;\">\n  \n  <div style=\"text-align: center; margin-bottom: 40px;\">\n    <h2 style=\"font-size: 2rem; margin-bottom: 10px;\">Prislista Verkstad</h2>\n  </div>\n\n  <div class=\"pricing-grid\" style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;\">\n    \n    <div class=\"price-category\" style=\"background: #f9f9f9; padding: 25px; border-radius: 12px; border: 1px solid #eee;\">\n      <h3 style=\"border-bottom: 2px solid #000; padding-bottom: 10px; margin-top: 0;\">Grepp & Tejp</h3>\n      <ul style=\"list-style: none; padding: 0; margin: 0;\">\n        <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Omgreppning <small>(exkl. grepp)</small></span> <strong>25 kr</strong></li>\n        <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Med medtaget grepp</span> <strong>50 kr</strong></li>\n        <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Avmontering av grepp <small>(ej garanti)</small></span> <strong>50 kr</strong></li>\n        <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Extra lager tejp</span> <strong>10 kr/lager</strong></li>\n        <li style=\"display: flex; justify-content: space-between; padding: 8px 0;\"><span>Blytejp</span> <strong>100 kr/m</strong></li>\n      </ul>\n    </div>\n\n    <div class=\"price-category\" style=\"background: #f9f9f9; padding: 25px; border-radius: 12px; border: 1px solid #eee;\">\n      <h3 style=\"border-bottom: 2px solid #000; padding-bottom: 10px; margin-top: 0;\">Justeringar</h3>\n      <ul style=\"list-style: none; padding: 0; margin: 0;\">\n        <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Loft/Lie förändring</span> <strong>50 kr</strong></li>\n        <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Förlängning <small>(inkl. plugg)</small></span> <strong>150 kr</strong></li>\n        <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Kapning</span> <strong>50 kr</strong></li>\n        <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Omlimning lösa huvud</span> <strong>150 kr</strong></li>\n        <li style=\"display: flex; justify-content: space-between; padding: 8px 0;\"><span>Spikbyte skor <small>(exkl. spik)</small></span> <strong>150 kr</strong></li>\n      </ul>\n    </div>\n\n    <div class=\"price-category\" style=\"background: #f9f9f9; padding: 25px; border-radius: 12px; border: 1px solid #eee; grid-column: 1 / -1;\">\n      <h3 style=\"border-bottom: 2px solid #000; padding-bottom: 10px; margin-top: 0;\">Skaft & Komponenter</h3>\n      <div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;\">\n        <ul style=\"list-style: none; padding: 0; margin: 0;\">\n          <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Skaftbyte <small>(arbete)</small></span> <strong>300 kr</strong></li>\n          <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Sleevebyte <small>(arbete)</small></span> <strong>150 kr</strong></li>\n          <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Adapter Driver/Fairway</span> <strong>350 kr</strong></li>\n          <li style=\"display: flex; justify-content: space-between; padding: 8px 0;\"><span>Sleeves <small>(uppskattat pris)</small></span> <strong>250-350 kr</strong></li>\n        </ul>\n        <ul style=\"list-style: none; padding: 0; margin: 0;\">\n          <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Stålskaft</span> <strong>400–800 kr</strong></li>\n          <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Grafitskaft järn</span> <strong>500–900 kr</strong></li>\n          <li style=\"display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ddd;\"><span>Grafitskaft MW</span> <strong>1000–2200 kr</strong></li>\n          <li style=\"display: flex; justify-content: space-between; padding: 8px 0;\"><span>Grafitskaft MW Exotic</span> <strong>1500–9500 kr</strong></li>\n        </ul>\n      </div>\n    </div>\n\n  </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "rich_text_RAaGqH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mJCeyX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Har du frågor? Tveka inte på att kontakta oss!",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "button_kBFkcT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kontakta oss",
+            "button_link": "/pages/kontakt",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mJCeyX",
+        "button_kBFkcT"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_icon_cards_bCxeiN": {
+      "type": "custom-icon-cards",
+      "blocks": {
+        "card_7RWGdk": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-truck\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle></svg>",
+            "heading": "Leverans",
+            "description": "2 – 5 arbetsdagar"
+          }
+        },
+        "card_PXgR6i": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-refresh-cw\"><polyline points=\"23 4 23 10 17 10\"></polyline><polyline points=\"1 20 1 14 7 14\"></polyline><path d=\"M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15\"></path></svg>",
+            "heading": "Öppet köp",
+            "description": "14 dagar"
+          }
+        },
+        "card_HJpEYf": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-user\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"></path><circle cx=\"12\" cy=\"7\" r=\"4\"></circle></svg>",
+            "heading": "Kundklubb",
+            "description": "Exklusiva erbjudanden"
+          }
+        }
+      },
+      "block_order": [
+        "card_7RWGdk",
+        "card_PXgR6i",
+        "card_HJpEYf"
+      ],
+      "name": "Icon Cards",
+      "settings": {
+        "color_scheme": "scheme-1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_M88xCC",
+    "rich_text_rCniMV",
+    "scrolling_promotion_M9WirN",
+    "image_with_text_hQPLbn",
+    "image_with_text_cU7TVi",
+    "image_with_text_hapYtA",
+    "custom_liquid_VneVVE",
+    "rich_text_RAaGqH",
+    "custom_icon_cards_bCxeiN"
+  ]
+}

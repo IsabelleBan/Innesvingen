@@ -1,0 +1,263 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_overlay_TWbKwQ": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_KARjzJ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Spela med Fullswing golf"
+          }
+        },
+        "heading_FqLawn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Simulatorgolf hos Innesvingen",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
+          }
+        },
+        "text_LjezYN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En spelupplevelse med fokus på känsla, bollflykt närspel <strong>och puttning.<br/></strong></p><p>Hos Innesvingen spelar du golf i <strong>Full Swing Golf-simulatorer, samma som TGL använder sig ab. </strong>Ett system som är utvecklat för att ge en <strong>sammanhängande spelupplevelse</strong>, där hela spelet hänger ihop. <br/></p><p>Från utslag och inspel till <strong>puttning på green</strong>. Här ligger fokus på hur spelet känns och flyter, inte bara på enskilda slag eller siffror. Resultatet är en simulatorupplevelse som ligger nära golfen utomhus – både i tempo och beslut.</p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_KARjzJ",
+        "heading_FqLawn",
+        "text_LjezYN"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "full",
+        "image": "shopify://shop_images/Innesvingen-simulator-area.webp",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 70,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "mobile_height": "auto",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "enable_preload_image": false
+      }
+    },
+    "custom_content_rpTWax": {
+      "type": "custom-content",
+      "blocks": {
+        "image_VmyBhr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/putting-simulator.webp",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "text_KwdC3T": {
+          "type": "text",
+          "settings": {
+            "content_alignment": "left",
+            "subheading": "",
+            "heading": "Där Full Swing gör skillnad:",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "description": "<h3></h3><ul><li><strong>Mer naturlig bollflykt på slag upp till green</strong><br/></li><li><strong>Ett puttningsflöde som följer spelet</strong>, istället för att bryta det<br/></li><li>Jämnare tempo mellan slag<br/></li><li>Mindre fokus på tekniska moment – mer på spelbeslut<br/></li></ul><p>Puttningen är en viktig del av helheten. I Full Swing är den integrerad i spelet på ett sätt som gör rundan mer sammanhängande och engagerande, oavsett om du tränar eller spelar med andra.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VmyBhr",
+        "text_KwdC3T"
+      ],
+      "name": "t:sections.custom-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Varför Full Swing?",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "<p>Alla golfsimulatorer mäter data, men de är byggda med olika prioriteringar.<br/>Full Swing använder <strong>kamerabaserad mätning av verklig bollflykt</strong> och är utvecklad för att fungera som ett komplett spelsystem, inte bara ett träningsverktyg.</p><p>Det märks särskilt i de delar av spelet där många simulatorer tappar känsla.</p>",
+        "text_size": "text-base",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_content_tYFQcY": {
+      "type": "custom-content",
+      "blocks": {
+        "image_6xqGtk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/innesvingen-sim1.webp",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "text_MimX8V": {
+          "type": "text",
+          "settings": {
+            "content_alignment": "left",
+            "subheading": "",
+            "heading": "Ett bättre flyt – från tee till green",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "description": "<p>I många simulatorer blir puttning ett avbrott i upplevelsen.<br/><br/>I Full Swing är den istället <strong>en naturlig fortsättning av spelet</strong>.</p><p>Det innebär:</p><ul><li>Mindre väntetid och färre avbrott<br/></li><li>Ett tempo som liknar spelet ute<br/></li><li>En mer social och spelbar runda<br/></li><li>En upplevelse som fungerar lika bra för träning som för sällskapsspel<br/></li></ul><p>För många golfare är det just detta som gör att rundan känns mer komplett.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6xqGtk",
+        "text_MimX8V"
+      ],
+      "name": "t:sections.custom-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_MFBpxR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hhYk4k": {
+          "type": "heading",
+          "settings": {
+            "heading": "Realistiska banor och garanterat roligt",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "button_aMQNx7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Boka i Mölndal",
+            "button_link": "https://www.matchi.se/facilities/innesvingengolfmolndal?date=2023-11-03&sport=",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "button_4qBbzg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Boka i Kungälv",
+            "button_link": "https://www.matchi.se/facilities/innesvingengolfkungalv?date=2023-11-03&sport=",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hhYk4k",
+        "button_aMQNx7",
+        "button_4qBbzg"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_TWbKwQ",
+    "custom_content_rpTWax",
+    "custom_content_tYFQcY",
+    "rich_text_MFBpxR"
+  ]
+}

@@ -1,0 +1,263 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_overlay_M88xCC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_ct9LzK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_47DzDP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Gå med i vår Kundklubb för exklusiva rabatter</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        },
+        "text_AjwNY6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/><br/><br/></p>",
+            "text_size": "text-lg"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ct9LzK",
+        "heading_47DzDP",
+        "text_AjwNY6"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "full",
+        "image": "shopify://shop_images/kundklubbhero.webp",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 30,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "mobile_height": "auto",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "enable_preload_image": false
+      }
+    },
+    "rich_text_rCniMV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Thh4GY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Välkommen till Innesvingens kundklubb",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_JU4PmD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ta del av exklusiva rabatter och spännande nyheter – helt kostnadsfritt!<br/>Missa inte erbjudanden vi vet att du kommer älska.</p><p></p><p></p><p><strong>Bli medlem idag och få upp till 15% rabatt på ditt köp!</strong></p><p><em>(Gäller vid köp av ordinarie priser & kan ej kombineras med andra rabatter/kampanjer.)</em></p><p></p><p>OBS! Du måste ha skapat en konto och vara inloggad för att rabatterna skall dras i kassan.</p><p><strong><br/>Rabatten gäller endast på varor till ordinarie priser.</strong></p><p></p><p><br/>OBS! Vi förbehåller oss rätten att ändra rabatt villkoren.</p><p><br/>Om någon vara på rea skulle köpas med ovan rabattkoder kommer <br/>varan ej att skickas</p>",
+            "text_size": "text-lg",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_prbHnF": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Thh4GY",
+        "text_JU4PmD",
+        "button_prbHnF"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_icon_cards_nWqEYH": {
+      "type": "custom-icon-cards",
+      "blocks": {
+        "card_k38C7G": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "",
+            "heading": "10 %",
+            "description": "Rabatt vid köp över 2 500krpå varor med ordinarie pris"
+          }
+        },
+        "card_i9UbJr": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "",
+            "heading": "12 %",
+            "description": "Rabatt vid köp över 7 000krpå varor med ordinarie pris"
+          }
+        },
+        "card_6CGh9q": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "",
+            "heading": "15 %",
+            "description": "Rabatt vid köp över 12 000 krpå varor med ordinarie pris"
+          }
+        }
+      },
+      "block_order": [
+        "card_k38C7G",
+        "card_i9UbJr",
+        "card_6CGh9q"
+      ],
+      "name": "Icon Cards",
+      "settings": {
+        "color_scheme": "scheme-11"
+      }
+    },
+    "image_with_text_hQPLbn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zgmqTq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gå med i vår kundklubb",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        },
+        "text_Cw69cn": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "subtext_color": true
+          }
+        },
+        "button_CUBU4A": {
+          "type": "button",
+          "settings": {
+            "button_label": "Läs mer",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zgmqTq",
+        "text_Cw69cn",
+        "button_CUBU4A"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "image": "shopify://shop_images/kundklubb2.webp",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_icon_cards_bCxeiN": {
+      "type": "custom-icon-cards",
+      "blocks": {
+        "card_7RWGdk": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-truck\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle></svg>",
+            "heading": "Leverans",
+            "description": "2 – 5 arbetsdagar"
+          }
+        },
+        "card_PXgR6i": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-refresh-cw\"><polyline points=\"23 4 23 10 17 10\"></polyline><polyline points=\"1 20 1 14 7 14\"></polyline><path d=\"M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15\"></path></svg>",
+            "heading": "Öppet köp",
+            "description": "14 dagar"
+          }
+        },
+        "card_HJpEYf": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-user\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"></path><circle cx=\"12\" cy=\"7\" r=\"4\"></circle></svg>",
+            "heading": "Kundklubb",
+            "description": "Exklusiva erbjudanden"
+          }
+        }
+      },
+      "block_order": [
+        "card_7RWGdk",
+        "card_PXgR6i",
+        "card_HJpEYf"
+      ],
+      "name": "Icon Cards",
+      "settings": {
+        "color_scheme": "scheme-1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_M88xCC",
+    "rich_text_rCniMV",
+    "custom_icon_cards_nWqEYH",
+    "image_with_text_hQPLbn",
+    "custom_icon_cards_bCxeiN"
+  ]
+}

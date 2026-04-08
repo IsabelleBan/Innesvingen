@@ -1,0 +1,298 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_RzgTi9": {
+      "type": "breadcrumbs",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 24
+      }
+    },
+    "collapsible_tabs_phAkEE": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "heading_grWd8w": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "Custom-fitting & Verkstad",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "collapsible_item_eFemDY": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Behöver jag boka tid för en custom-fitting?",
+            "content": "<p>Ja, för att vi ska kunna ge dig 100% fokus rekommenderar vi att du bokar via vår hemsida eller ringer butiken.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": true,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_RQ3WzW": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Vad kostar en utprovning och ingår det om jag köper klubborna?",
+            "content": "<p>Priset för en custom-fitting är 350 kr. Om du väljer att köpa dina klubbor hos oss dras priset av på köpet. </p><p></p><p><em>Redo att optimera ditt spel? </em><a href=\"https://boka.easycashier.se/innesvingengolf/customfitting\" title=\"https://boka.easycashier.se/innesvingengolf/customfitting\"><em>Boka här!</em></a><em> </em></p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_aKpRFm": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Kan jag byta grepp på mina gamla klubbor hos er?",
+            "content": "<p>Självklart! Vi har ett brett utbud av grepp och vi har alltid 24-timmars service på greppbyten.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_grWd8w",
+        "collapsible_item_eFemDY",
+        "collapsible_item_RQ3WzW",
+        "collapsible_item_aKpRFm"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "narrow",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Vanliga frågor och svar",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "small",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collapsible_tabs_hBEiYB": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "heading_r7Lc7A": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "Simulatorgolf",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "collapsible_item_W9YnUi": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Hur många kan man vara per simulator?",
+            "content": "<p>Det är valfritt hur många spelare man vill vara, men en rekommendation är 4 personer för att få ut så mycket som möjligt av tiden.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_aQb9Wh": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Måste jag ta med egna klubbor?",
+            "content": "<p>Det går utmärkt att ta med egna (rena!) klubbor, men vi har även låneklubbor på plats.</p><p><br/><em>Träna med exakt data året runt – boka din träningstid </em><a href=\"https://innesvingen.se/pages/simulatorgolf-1\" title=\"https://innesvingen.se/pages/simulatorgolf-1\"><em>här </em></a></p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_r7Lc7A",
+        "collapsible_item_W9YnUi",
+        "collapsible_item_aQb9Wh"
+      ],
+      "settings": {
+        "container": "narrow",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collapsible_tabs_qwFcff": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "heading_dqyYMq": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "Leverans & Retur",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "collapsible_item_3jdH9x": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Hur lång är leveranstiden?",
+            "content": "<p>Vi strävar alltid efter att leverera dina varor så snabbt som möjligt. Leveranstiden är 2 – 5 arbetsdagar och vår leverantör är DHL.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_LycpPr": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Kan jag hämta min order i butiken i Mölndal eller Kungälv?",
+            "content": "<p>Ja, välj vilken butik du vill hämta din order i när du lägger till en vara i varukorgen.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        },
+        "collapsible_item_LCk4MW": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Vad händer om jag ångrar mitt köp?",
+            "content": "<p>Vi erbjuder 14 dagars öppet köp och bytesrätt på din beställning. Kom ihåg att varan måste returneras oanvänd, i originalemballage och med samtliga etiketter kvar på produkten.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_dqyYMq",
+        "collapsible_item_3jdH9x",
+        "collapsible_item_LycpPr",
+        "collapsible_item_LCk4MW"
+      ],
+      "settings": {
+        "container": "narrow",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 60,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_RzgTi9",
+    "main",
+    "collapsible_tabs_phAkEE",
+    "collapsible_tabs_hBEiYB",
+    "collapsible_tabs_qwFcff"
+  ]
+}

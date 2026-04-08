@@ -1,0 +1,400 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_overlay_aJUUGR": {
+      "type": "image-with-text-overlay",
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "full",
+        "image": "shopify://shop_images/Innesvingen-VSOP-tavling.png",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 25,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "mobile_height": "auto",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "enable_preload_image": false
+      }
+    },
+    "rich_text_MhcKUb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Kp86FE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Innesvingen VSOP – Slaggolf",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_kXWh3b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Innesvingens VSOP, valfri starttid och plats – Kungälv/Mölndal, utspelas inomhus i våra världsledande simulatorer. Det är slaggolf som gäller och tävlingsformen är likt en vanlig herr/dam golf som man spelar varje vecka</p><p><em>– men där du tävlar om en resa till Spanien!</em></p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_tqTKrA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Säkra din plats här",
+            "button_link": "https://docs.google.com/forms/d/e/1FAIpQLSd4HV7RQ7yqqN5ckPdUBu7_U8eOSUE4qKwrx94iOsnN1m6QKg/viewform",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Kp86FE",
+        "text_kXWh3b",
+        "button_tqTKrA"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-10",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_DyTyxd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DqqGRL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Så här fungerar det",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_cjkfUd": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Seriespel: </strong>15 omgångar slaggolf, där de 12 bästa resultaten räknas. Varje vecka spelar vi på en ny världsbana.</li><li><strong>Flexibilitet: </strong>Boka en tid som passar dig, och spela med vänner/andra som också är anmälda. Vi rekommenderar att man bokar en timme per person för 18 hål.</li><li><strong>Rabatterat pris %:</strong> För att få det rabatterade priset måste man ringa och boka, då det inte är tillgängligt online.</li><li><strong>Registering:</strong> Viktigt – kom ihåg att föra score kort och lämna in det signerat! Vi har ett förvalt schema för vilken bana som spelas varje vecka och era netto resultat.</li><li><strong>Tee val: </strong>Herrar spelar från vit tee <em>(motsvarar gul i Sverige). </em>Obs! 65 år och äldre, spelar från röd tee. Damer spelar från röd tee med 10% <em>\"boost\" </em>på slag fram till 100 meter från flagg.</li><li><strong>Vinnarna av serien</strong> får åka med till Spanien! <em>Dock för att detta ska kunna ske behövs det minst 40 deltagare.</em></li></ul>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DqqGRL",
+        "text_cjkfUd"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_PjgH4j": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cnJGdy": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>Som en vanlig onsdagsgolf på klubben – fast här har ni möjlighet att välja valfri ledig dag och tid i veckan!</em>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cnJGdy"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_7wUaJg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zWn63Q": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pris",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_qdBpUk": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Anmälningsavgift:</strong> 100kr som går till prisbordet – <em>notera att detta är en avgift utöver timpriset.</em></li><li><strong>Vardagar </strong><em><strong>innan </strong></em><strong>kl. 19.00: </strong>200kr/ timme- <em>max en timme per person</em></li><li><strong>Vardagar </strong><em><strong>efter</strong></em><strong> klockan 19.00: </strong>280kr/timme (Ordinarie pris 350kr)</li><li><strong>Lördagar och Söndagar: </strong>280kr/timme (Ordinarie pris 350kr)</li></ul>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zWn63Q",
+        "text_qdBpUk"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_cGirVN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YNFaCQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Regler och poäng räkning",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_Hr6VAK": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>1:a = 35 poäng</li><li>2:a = 30 poäng</li><li>3:a = 28 poäng</li><li>4:a = 26 poäng</li><li>5:a = 25 poäng</li><li>6:a = 24 poäng</li></ul><p><em>Sedan fallande med 1 poäng per placering.</em></p><p>Alla erhåller ett eget Innesvingen HCP–kort, där man börjar på 75 % av sitt ute HCP.</p><p>Spelade du Ligan eller VSOP förra året, så erhåller du snittet på ovan uträkning och förra årets Innesvingen HCP. <em>Max Utomhus HCP är 36.</em></p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YNFaCQ",
+        "text_Hr6VAK"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_MqkD9Q": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_biM9cA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Avslutning med finalspel söndag 22 Mars 2026",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_7hNGEa": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>De 32 bästa från serien kommer att får möjlighet att vara med i ett finalspel!</strong></p><p><strong>Först spelas matchspel:</strong> 9 hål och de 18 som vinner sina matcher går vidare till en <em>shootout.</em></p><p><strong>Final med </strong><em><strong>shootout: </strong></em>Utspelas i Mölndals–butiken med en <em>shootout </em>i flera golfsimulatorer på samma bana. Det sämsta nettoscoren på varje hål åker ut. Om några spelare delar ett hål så blir det <em>shootout </em>på en seperat golfsimulator, där helt enkelt den som kommer närmast pon från förutbestämt läge får vidare till nästa hål.</p><p><strong>Årets seriesegrare åker till Spanien med oss Oktober 2026</strong></p><p><strong>( om min 40 anmälda spelare). </strong></p><p><strong>Utöver serievinnaren av den totala serien ( lägsta totala nettoscoren av de 12 bästa rundorna) spelar vi även en \"shootout\" enligt nedan:</strong></p><p><strong>Söndagen den 22 Mars 2026 shootout!</strong></p><p><strong>Semifinaler spelas på respektive anläggning kl. 9.00 på morgonen, matchspel för de totalt 32 bästa spelarna.  De 16 bästa spelarna går sedan vidare till \"shootout\" i Mölndal</strong></p><p><strong>\"Shootout\"  spelas i Mölndal kl. 14.00 i flera golfsimulatorer på samma bana.  Den sämsta nettoscoren på varje hål åker ut.   Om några spelare delar ett hål så blir det \"shootout\" på en separat golfsimulator,  där helt enkelt den som kommer närmast pin från förutbestämt läge går vidare till nästa hål. </strong></p><p><strong>Efter 18 hål har vi en segrare!</strong></p><p><em><strong>Det är Mike i Kungälvsbutiken och August i Mölndalsbutiken som ansvarig för VSOP</strong></em></p><p><em><strong>0303-214995 alternativ 031-7067560 </strong></em></p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_K9L3kt": {
+          "type": "button",
+          "settings": {
+            "button_label": "Anmäl dig här!",
+            "button_link": "https://docs.google.com/forms/d/1Qr7g0vQd-MZGG4Z86-Q4Im-ybu_sb0lCywhT8YDMq8k/viewform?_kx=q7GqqRhQuefL8A6AYwfDgA.WcPsqA&edit_requested=true",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_biM9cA",
+        "text_7hNGEa",
+        "button_K9L3kt"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_overlay_pr8aR7": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_tBR79x": {
+          "type": "heading",
+          "settings": {
+            "heading": "Grattis till VSOP 2024 vinnarna",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_XtR8MA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mölndalsbutiken: Andreas och Kungälvsbutiken: Mike</p>",
+            "text_size": "text-lg"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tBR79x",
+        "text_XtR8MA"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "fixed",
+        "image": "shopify://shop_images/Innesvingen-vinnare.png",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 25,
+        "enable_parallax": true,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "mobile_height": "auto",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "enable_preload_image": false
+      }
+    },
+    "custom_icon_cards_bCxeiN": {
+      "type": "custom-icon-cards",
+      "blocks": {
+        "card_7RWGdk": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-truck\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle></svg>",
+            "heading": "Leverans",
+            "description": "2 – 5 arbetsdagar"
+          }
+        },
+        "card_PXgR6i": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-refresh-cw\"><polyline points=\"23 4 23 10 17 10\"></polyline><polyline points=\"1 20 1 14 7 14\"></polyline><path d=\"M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15\"></path></svg>",
+            "heading": "Öppet köp",
+            "description": "14 dagar"
+          }
+        },
+        "card_HJpEYf": {
+          "type": "card",
+          "settings": {
+            "icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"30\" height=\"48\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-user\"><path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"></path><circle cx=\"12\" cy=\"7\" r=\"4\"></circle></svg>",
+            "heading": "Kundklubb",
+            "description": "Exklusiva erbjudanden"
+          }
+        }
+      },
+      "block_order": [
+        "card_7RWGdk",
+        "card_PXgR6i",
+        "card_HJpEYf"
+      ],
+      "name": "Icon Cards",
+      "settings": {
+        "color_scheme": "scheme-1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_aJUUGR",
+    "rich_text_MhcKUb",
+    "rich_text_DyTyxd",
+    "rich_text_PjgH4j",
+    "rich_text_7wUaJg",
+    "rich_text_cGirVN",
+    "rich_text_MqkD9Q",
+    "image_with_text_overlay_pr8aR7",
+    "custom_icon_cards_bCxeiN"
+  ]
+}
